@@ -1,0 +1,43 @@
+{
+  "name": "tokenid-blockchain-api",
+  "version": "0.1.1",
+  "description": "Token ID Blockchain API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "dependencies": {
+    "body-parser": "1.0.2",
+    "cf-deployment-tracker-client": "*",
+    "cookie-parser": "1.0.1",
+    "cors": "2.5.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "fs": "",
+    "pem":"1.9.4",
+    "key-encoder"  : "1.1.6",
+    "hfc": "^0.6.5",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.3",
+    "x509": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokenID/TokenID-Blockchain-API.git"
+  },
+
+  "keywords": [
+    "TokenID",
+    "identity",
+    "hyperledger",
+    "fabric",
+    "nodejs"
+  ],
+  "author": "Victor Ikoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TokenID/TokenID-Blockchain-API/issues"
+  },
+  "homepage": "https://github.com/TokenID/TokenID-Blockchain-API#readme"
+}

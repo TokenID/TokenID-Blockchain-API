@@ -1,0 +1,13 @@
+{
+    "networkProtocol": "https", 
+    "appProtocol"  : "https",
+    "hfcProtocol" : "grpcs", 
+    "trace"  : true,
+    "traceFile" : "server/logs/app_trace.log",
+    "offlineUrl" : "localhost",
+    "appPort" : 8080,
+    "certificateFileName" : "us.blockchain.ibm.com.cert",
+    "keyStoreLocation" : "./keyValStore",
+    "chainName"  : "clientChain",
+    "chainCodeID" : ""
+}

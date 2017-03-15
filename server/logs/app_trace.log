@@ -1,0 +1,213 @@
+	14/03/2017 12:32:20	INFO	Startup complete on port	8080
+	14/03/2017 12:32:29	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 12:32:29	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:36:15	INFO	Startup complete on port	8080
+	14/03/2017 12:36:23	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:36:23	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:37:29	INFO	Startup complete on port	8080
+	14/03/2017 12:37:37	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:37:37	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:38:32	INFO	Startup complete on port	8080
+	14/03/2017 12:38:40	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:38:40	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:39:21	INFO	Startup complete on port	8080
+	14/03/2017 12:39:29	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:39:29	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:42:59	INFO	Startup complete on port	8080
+	14/03/2017 12:43:07	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:43:07	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:46:51	INFO	Startup complete on port	8080
+	14/03/2017 12:46:59	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:46:59	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:48:23	INFO	Startup complete on port	8080
+	14/03/2017 12:48:31	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:48:31	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:48:53	INFO	Startup complete on port	8080
+	14/03/2017 12:49:01	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin c7ebdbe3a1"
+	14/03/2017 12:49:01	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:54:53	INFO	Startup complete on port	8080
+	14/03/2017 12:55:01	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 12:55:01	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 12:58:20	INFO	Startup complete on port	8080
+	14/03/2017 12:58:28	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 12:58:28	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 13:00:48	INFO	Startup complete on port	8080
+	14/03/2017 13:00:57	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 13:00:57	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 13:01:53	INFO	Startup complete on port	8080
+	14/03/2017 13:02:01	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 13:02:01	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 13:03:45	INFO	Startup complete on port	8080
+	14/03/2017 13:05:48	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 7424eb206b"
+	14/03/2017 13:05:49	ERROR	Startup	OUTPUT: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 13:17:27	INFO	Startup complete on port	8080
+	14/03/2017 13:18:09	ERROR	Startup	OUTPUT: "Failed to enroll registrar with user_type2_0 a2693117c2"
+	14/03/2017 13:18:09	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 13:19:48	INFO	Startup complete on port	8080
+	14/03/2017 13:20:05	ERROR	Startup	OUTPUT: "Failed to enroll registrar with user_type2_0 a2693117c2"
+	14/03/2017 13:20:05	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:07:57	INFO	Startup complete on port	8080
+	14/03/2017 14:08:05	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:08:05	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:12:49	INFO	Startup complete on port	8080
+	14/03/2017 14:12:57	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:12:57	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:14:27	INFO	Startup complete on port	8080
+	14/03/2017 14:14:35	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:14:35	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:15:48	INFO	Startup complete on port	8080
+	14/03/2017 14:15:56	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:15:56	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:16:14	INFO	Startup complete on port	8080
+	14/03/2017 14:16:22	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:17:31	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:20:55	INFO	Startup complete on port	8080
+	14/03/2017 14:21:11	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:21:11	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:26:12	INFO	Startup complete on port	8080
+	14/03/2017 14:26:20	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:26:35	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:27:40	INFO	Startup complete on port	8080
+	14/03/2017 14:27:48	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:27:56	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:29:27	INFO	Startup complete on port	8080
+	14/03/2017 14:29:36	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:29:44	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:39:47	INFO	Startup complete on port	8080
+	14/03/2017 14:43:40	INFO	Startup complete on port	8080
+	14/03/2017 14:43:58	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:43:59	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:46:41	INFO	Startup complete on port	8080
+	14/03/2017 14:50:50	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 14:50:51	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 14:55:54	INFO	Startup complete on port	8080
+	14/03/2017 15:00:33	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:00:33	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:04:03	INFO	Startup complete on port	8080
+	14/03/2017 15:04:18	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:04:18	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:05:28	INFO	Startup complete on port	8080
+	14/03/2017 15:07:47	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:07:48	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:09:04	INFO	Startup complete on port	8080
+	14/03/2017 15:09:25	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:09:26	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:11:59	INFO	Startup complete on port	8080
+	14/03/2017 15:12:06	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:12:06	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:15:05	INFO	Startup complete on port	8080
+	14/03/2017 15:15:12	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:15:12	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:23:31	INFO	Startup complete on port	8080
+	14/03/2017 15:23:55	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:24:01	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:27:30	INFO	Startup complete on port	8080
+	14/03/2017 15:27:45	ERROR	Startup	OUTPUT: "Failed to enroll registrar with WebAppAdmin 311e1b9533"
+	14/03/2017 15:27:54	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:28:41	INFO	Startup complete on port	8080
+	14/03/2017 15:28:49	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin d3136c4a5d"
+	14/03/2017 15:28:49	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:30:07	INFO	Startup complete on port	8080
+	14/03/2017 15:30:15	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin d3136c4a5d"
+	14/03/2017 15:30:15	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:47:54	INFO	Startup complete on port	8080
+	14/03/2017 15:48:09	INFO	Startup	Enrolled registrar
+	14/03/2017 15:48:09	INFO	Startup	Set registrar
+	14/03/2017 15:56:01	INFO	Startup complete on port	8080
+	14/03/2017 15:56:01	INFO	Startup	Enrolled registrar
+	14/03/2017 15:56:01	INFO	Startup	Set registrar
+	14/03/2017 15:56:13	INFO	Startup	Failed to enroll spectranet_user_2 using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:56:13	ERROR	Startup	OUTPUT: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:56:14	INFO	Startup	Failed to enroll inec_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:56:14	INFO	Startup	Failed to enroll vemco_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:56:14	INFO	Startup	Failed to enroll firs_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:19	INFO	Startup complete on port	8080
+	14/03/2017 15:57:19	INFO	Startup	Enrolled registrar
+	14/03/2017 15:57:19	INFO	Startup	Set registrar
+	14/03/2017 15:57:30	INFO	Startup	Failed to enroll inec_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:30	ERROR	Startup	OUTPUT: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:31	INFO	Startup	Failed to enroll spectranet_user_2 using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:31	INFO	Startup	Failed to enroll vemco_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:31	INFO	Startup	Failed to enroll firs_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll spectranet_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll nimc_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll nut_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll uniben_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll bank_provider using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll ican_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	14/03/2017 15:57:40	INFO	Startup	Failed to enroll nurtw_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:22:26	INFO	Startup complete on port	8080
+	15/03/2017 07:22:31	INFO	Startup	Enrolled registrar
+	15/03/2017 07:22:31	INFO	Startup	Set registrar
+	15/03/2017 07:23:36	INFO	Startup	Failed to enroll spectranet_user_2 using HFC. Error: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:23:36	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:24:43	INFO	Startup complete on port	8080
+	15/03/2017 07:24:43	INFO	Startup	Enrolled registrar
+	15/03/2017 07:24:43	INFO	Startup	Set registrar
+	15/03/2017 07:24:55	INFO	Startup	Failed to enroll spectranet_user_2 using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:24:55	ERROR	Startup	OUTPUT: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:24:55	INFO	Startup	Failed to enroll inec_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:24:55	INFO	Startup	Failed to enroll vemco_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:24:55	INFO	Startup	Failed to enroll firs_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:25:04	INFO	Startup	Failed to enroll uniben_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:25:04	INFO	Startup	Failed to enroll bank_provider using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:25:04	INFO	Startup	Failed to enroll nimc_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:25:04	INFO	Startup	Failed to enroll ican_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:25:04	INFO	Startup	Failed to enroll nut_user using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:27:53	INFO	Startup complete on port	8080
+	15/03/2017 07:27:53	INFO	Startup	Enrolled registrar
+	15/03/2017 07:27:53	INFO	Startup	Set registrar
+	15/03/2017 07:28:48	INFO	Startup	Failed to enroll provider_1 using HFC. Error: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:28:48	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:32:34	INFO	Startup complete on port	8080
+	15/03/2017 07:32:34	INFO	Startup	Enrolled registrar
+	15/03/2017 07:32:34	INFO	Startup	Set registrar
+	15/03/2017 07:32:42	INFO	Startup	Failed to enroll provider_1 using HFC. Error: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:32:42	ERROR	Startup	OUTPUT: {"code":2,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:33:37	INFO	Startup complete on port	8080
+	15/03/2017 07:33:37	INFO	Startup	Enrolled registrar
+	15/03/2017 07:33:37	INFO	Startup	Set registrar
+	15/03/2017 07:34:07	INFO	Startup	Failed to enroll provider_2 using HFC. Error: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:34:07	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:34:43	INFO	Startup complete on port	8080
+	15/03/2017 07:34:43	INFO	Startup	Enrolled registrar
+	15/03/2017 07:34:43	INFO	Startup	Set registrar
+	15/03/2017 07:35:13	INFO	Startup	Failed to enroll provider_3 using HFC. Error: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:35:13	ERROR	Startup	OUTPUT: {"code":14,"metadata":{"_internal_repr":{}}}
+	15/03/2017 07:36:06	INFO	Startup complete on port	8080
+	15/03/2017 07:36:06	INFO	Startup	Enrolled registrar
+	15/03/2017 07:36:06	INFO	Startup	Set registrar
+	15/03/2017 07:42:34	INFO	Startup	Registrar enroll worked with user provider_4
+	15/03/2017 07:42:34	INFO	Startup	All users registered
+	15/03/2017 07:42:34	INFO	Startup	Checking if chaincode is deployed
+	15/03/2017 09:46:57	INFO	Startup complete on port	8080
+	15/03/2017 09:46:57	INFO	Startup	Enrolled registrar
+	15/03/2017 09:46:57	INFO	Startup	Set registrar
+	15/03/2017 09:48:05	INFO	Startup	Registrar enroll worked with user provider_5
+	15/03/2017 09:48:05	INFO	Startup	All users registered
+	15/03/2017 09:49:31	INFO	Startup	Checking if chaincode is deployed
+	15/03/2017 11:40:38	INFO	Startup complete on port	8080
+	15/03/2017 11:40:38	INFO	Startup	Enrolled registrar
+	15/03/2017 11:40:38	INFO	Startup	Set registrar
+	15/03/2017 11:40:38	ERROR	Startup	OUTPUT: {}
+	15/03/2017 11:41:09	INFO	Startup complete on port	8080
+	15/03/2017 11:41:09	INFO	Startup	Enrolled registrar
+	15/03/2017 11:41:09	INFO	Startup	Set registrar
+	15/03/2017 11:41:09	ERROR	Startup	OUTPUT: {}
+	15/03/2017 11:42:16	INFO	Startup complete on port	8080
+	15/03/2017 11:42:16	INFO	Startup	Enrolled registrar
+	15/03/2017 11:42:16	INFO	Startup	Set registrar
+	15/03/2017 11:42:30	ERROR	Startup	OUTPUT: {}
+	15/03/2017 11:43:09	INFO	Startup complete on port	8080
+	15/03/2017 11:43:09	INFO	Startup	Enrolled registrar
+	15/03/2017 11:43:09	INFO	Startup	Set registrar
+	15/03/2017 11:43:09	ERROR	Startup	OUTPUT: {}
+	15/03/2017 11:44:11	INFO	Startup complete on port	8080
+	15/03/2017 11:45:23	INFO	Startup complete on port	8080
+	15/03/2017 11:45:23	INFO	Startup	Enrolled registrar
+	15/03/2017 11:45:23	INFO	Startup	Set registrar
+	15/03/2017 11:45:30	ERROR	Chaincode ID not set in config	OUTPUT: undefined
+	15/03/2017 11:47:17	INFO	Startup complete on port	8080
+	15/03/2017 11:47:17	INFO	Startup	Enrolled registrar
+	15/03/2017 11:47:17	INFO	Startup	Set registrar
+	15/03/2017 11:47:34	ERROR	Chaincode ID not set in config	OUTPUT: undefined

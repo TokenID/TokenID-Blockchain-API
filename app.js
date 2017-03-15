@@ -388,24 +388,6 @@ function setSetupError(err) {
 let chaincodeID;
 
 return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAdminPassword)
-    // .then(function(r) {
-    //     registrar = r;
-    //     chain.setRegistrar(registrar);
-    //     tracing.create('INFO', 'Startup', 'Set registrar');
-    //     let users = configFile.config.users;
-    //     if (vcapServices || pem) {
-    //         users.forEach(function(user){
-    //             user.affiliation = 'group1';
-    //         });
-    //     }
-    //     //return startup.enrollUsers(chain, users, registrar);
-    // })
-    // // .then(function(users) {
-    // //     tracing.create('INFO', 'Startup', 'All users registered');
-    // //     users.forEach(function(user) {
-    // //         usersToSecurityContext[user.getName()] = new SecurityContext(user);
-    // //     });
-    // // })
     .then(function (r) {
         chain.setRegistrar(registrar);
         tracing.create('INFO', 'Startup', 'Set registrar');
@@ -434,9 +416,10 @@ return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAd
     })
     .then(function (itExistsAndUp) {
         if (itExistsAndUp) {
+            tracing.create('', 'Chaincode is UP')
             // Query the chaincode every 3 minutes
             setInterval(function () {
-                startup.pingChaincode(chain, usersToSecurityContext.DVLA)
+                startup.pingChaincode(chain,  configFile.config.securityContext)
                     .then((success) => {
                         if (!success) {
                             setSetupError();

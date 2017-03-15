@@ -211,3 +211,24 @@
 	15/03/2017 11:47:17	INFO	Startup	Enrolled registrar
 	15/03/2017 11:47:17	INFO	Startup	Set registrar
 	15/03/2017 11:47:34	ERROR	Chaincode ID not set in config	OUTPUT: undefined
+	15/03/2017 12:15:56	INFO	Startup complete on port	8080
+	15/03/2017 12:15:56	INFO	Startup	Enrolled registrar
+	15/03/2017 12:15:56	INFO	Startup	Set registrar
+	15/03/2017 12:15:56	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 12:18:25	INFO	Startup complete on port	8080
+	15/03/2017 12:18:25	INFO	Startup	Enrolled registrar
+	15/03/2017 12:18:25	INFO	Startup	Set registrar
+	15/03/2017 12:18:25	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 12:19:03	INFO	Startup complete on port	8080
+	15/03/2017 12:19:03	INFO	Startup	Enrolled registrar
+	15/03/2017 12:19:03	INFO	Startup	Set registrar
+	15/03/2017 12:19:13	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 12:19:48	INFO	Startup complete on port	8080
+	15/03/2017 12:19:48	INFO	Startup	Enrolled registrar
+	15/03/2017 12:19:48	INFO	Startup	Set registrar
+	15/03/2017 12:19:50	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 12:24:18	INFO	Startup complete on port	8080
+	15/03/2017 12:24:18	INFO	Startup	Enrolled registrar
+	15/03/2017 12:24:18	INFO	Startup	Set registrar
+	15/03/2017 12:24:22	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined

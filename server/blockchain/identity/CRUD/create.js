@@ -9,7 +9,7 @@ const ursa = require('ursa')
 function create(req, res, next) {
     let securityContext = configFile.config.securityContext;
 
-    let issuer = new Identity(securityContext);
+    let identity = new Identity(securityContext);
     let reqBody = req.body
     let providerEnrollmentID = req.params.providerEnrollmentID;
 
@@ -34,7 +34,7 @@ function create(req, res, next) {
         return
     }
 
-    return identity.create(providerEnrollmentID, reqBody.identityCode, reqBody.identityTypeCode, reqBody.identityPayload, reqBody.issuerID)
+    return identity.create(providerEnrollmentID, reqBody.identityCode, reqBody.identityTypeCode, reqBody.identityPayload, reqBody.issuerID, reqBody.metaData, reqBody.attachmentURI)
         .then(function (enrolledIssuer) {
             tracing.create('INFO', 'POST blockchain/identity/'+providerEnrollmentID, 'Identity ' + reqBody.identityCode + ' added');
             let result = {};
@@ -79,14 +79,14 @@ function initialize(req, res, next) {
         }
         return identity.initialize(reqBody.providerEnrollmentID, identityPublicKey)
             .then(function (data) {
-                tracing.create('INFO', 'POST blockchain/identity/initialize', 'Initialized Identity');
+                tracing.create('INFO', 'POST blockchain/identity/initialize/new', 'Initialized Identity');
                 let result = {};
                 result.message = 'Identity initialization successful';
                 result.providerEnrollmentID = reqBody.providerEnrollmentID;
                 res.json(result);
             })
             .catch(function (err) {
-                tracing.create('ERROR', 'POST blockchain/identity/initialize', err.stack);
+                tracing.create('ERROR', 'POST blockchain/identity/initialize/new', err.stack);
                 res.status(500).json({ 'message': err.stack });
             });
     }

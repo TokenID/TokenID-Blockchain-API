@@ -19,7 +19,7 @@ function getIssuers(req, res, next) {
             result.issuers = issuers;
             console.log(issuers);
             tracing.create('EXIT', 'GET blockchain/issuers', {});
-            res.end(JSON.stringify(result));
+            res.json(result);
         })
         .catch(function (err) {
             res.status(400);

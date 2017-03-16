@@ -65,7 +65,7 @@ app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)
     identity.create(req, res,next);
 });
 
-app.post('/blockchain/identity/initialize', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
+app.post('/blockchain/identity/initialize/new', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
 {
     identity.initialize(req, res, next);
 });

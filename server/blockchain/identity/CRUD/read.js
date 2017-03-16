@@ -39,7 +39,7 @@ function getIdentities(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID, {});
     let securityContext = configFile.config.securityContext;
 
-    return Util.queryChaincode(securityContext, 'getIdentites', [req.params.providerEnrollmentID])
+    return Util.queryChaincode(securityContext, 'getIdentities', [req.params.providerEnrollmentID])
         .then(function (data) {
             let identities = JSON.parse(data.toString());
             let result = {};

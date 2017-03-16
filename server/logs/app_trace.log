@@ -810,9 +810,9 @@ undefined	16/03/2017 09:21:13	INFO	Chaincode is UP	undefined
 	16/03/2017 09:34:30	INFO	Startup	Set registrar
 	16/03/2017 09:34:30	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 09:35:02	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
-	16/03/2017 09:35:02	ERROR	POST blockchain/identity/initialize	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 09:35:02	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
 	16/03/2017 09:35:51	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 09:35:51	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 09:35:51	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 09:36:03	INFO	Chaincode is UP	undefined
 undefined16/03/2017 09:37:01	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 	16/03/2017 09:37:08	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
@@ -851,7 +851,7 @@ undefined16/03/2017 09:37:01	ENTER	GET blockchain/identity/ECB-223113345/publicK
 	16/03/2017 09:56:31	INFO	Startup	Set registrar
 	16/03/2017 09:56:31	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 09:57:26	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 09:57:26	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 09:57:26	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 16/03/2017 09:57:33	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 	16/03/2017 09:58:38	INFO	Startup complete on port	8080
 	16/03/2017 09:58:38	INFO	Startup	Enrolled registrar
@@ -885,9 +885,9 @@ undefined16/03/2017 09:37:01	ENTER	GET blockchain/identity/ECB-223113345/publicK
 undefined	16/03/2017 10:09:46	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:10:52	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:11:24	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:11:24	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:11:24	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:11:35	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:11:35	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:11:35	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:11:47	INFO	Chaincode is UP	undefined
 	16/03/2017 10:12:17	INFO	Chaincode is UP	undefined
 	16/03/2017 10:12:53	INFO	Chaincode is UP	undefined
@@ -909,10 +909,10 @@ undefined	16/03/2017 10:11:24	INFO	Identity	Identity registered on BlockChain EC
 	16/03/2017 10:19:58	INFO	Startup	Set registrar
 	16/03/2017 10:19:58	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 10:20:57	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:20:57	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:20:57	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:21:04	INFO	Chaincode is UP	undefined
 	16/03/2017 10:21:07	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:21:07	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:21:07	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:21:45	INFO	Chaincode is UP	undefined
 	16/03/2017 10:22:11	INFO	Chaincode is UP	undefined
 	16/03/2017 10:22:46	INFO	Chaincode is UP	undefined
@@ -937,12 +937,12 @@ undefined	16/03/2017 10:11:24	INFO	Identity	Identity registered on BlockChain EC
 	16/03/2017 10:30:42	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 10:31:45	INFO	Chaincode is UP	undefined
 	16/03/2017 10:32:14	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:32:14	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:32:14	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:32:26	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:33:27	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:34:23	INFO	Chaincode is UP	undefined
 	16/03/2017 10:34:41	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:34:41	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:34:41	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:34:54	INFO	Chaincode is UP	undefined
 16/03/2017 10:35:17	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 16/03/2017 10:35:26	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
@@ -956,13 +956,13 @@ undefined	16/03/2017 10:34:23	INFO	Chaincode is UP	undefined
 	16/03/2017 10:37:00	INFO	Chaincode is UP	undefined
 16/03/2017 10:37:00	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
 	16/03/2017 10:37:16	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:37:16	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:37:16	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:39:03	INFO	Startup complete on port	8080
 	16/03/2017 10:39:03	INFO	Startup	Enrolled registrar
 	16/03/2017 10:39:03	INFO	Startup	Set registrar
 	16/03/2017 10:39:03	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 10:39:53	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:40:11	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:40:11	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:40:20	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:41:32	INFO	Chaincode is UP	undefined
 16/03/2017 10:41:37	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
@@ -987,19 +987,19 @@ undefined	16/03/2017 10:54:07	INFO	Chaincode is UP	undefined
 16/03/2017 10:55:16	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 	16/03/2017 10:55:21	INFO	Chaincode is UP	undefined
 	16/03/2017 10:55:26	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:55:26	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:55:26	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 16/03/2017 10:55:27	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
 	16/03/2017 10:57:58	INFO	Startup complete on port	8080
 	16/03/2017 10:57:58	INFO	Startup	Enrolled registrar
 	16/03/2017 10:57:58	INFO	Startup	Set registrar
 	16/03/2017 10:57:58	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
 	16/03/2017 10:58:06	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
-	16/03/2017 10:58:06	ERROR	POST blockchain/identity/initialize	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 10:58:06	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
 	16/03/2017 10:58:52	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:58:52	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:58:52	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 	16/03/2017 10:58:59	INFO	Chaincode is UP	undefined
 undefined	16/03/2017 10:59:40	INFO	Identity	Identity registered on BlockChain ECB-223113345
-	16/03/2017 10:59:40	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:59:40	INFO	POST blockchain/identity/initialize/new	Initialized Identity
 undefined	16/03/2017 11:00:41	INFO	Chaincode is UP	undefined
 16/03/2017 11:00:55	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 	16/03/2017 11:01:01	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
@@ -1009,3 +1009,660 @@ undefined	16/03/2017 11:00:41	INFO	Chaincode is UP	undefined
 16/03/2017 11:01:35	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
 	16/03/2017 11:01:38	INFO	Chaincode is UP	undefined
 16/03/2017 11:01:40	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 14:19:10	INFO	Startup complete on port	8080
+	16/03/2017 14:19:10	INFO	Startup	Enrolled registrar
+	16/03/2017 14:19:10	INFO	Startup	Set registrar
+	16/03/2017 14:19:10	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:20:14	INFO	Chaincode is UP	undefined
+	16/03/2017 14:20:31	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 14:20:36	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 14:20:36	INFO	POST blockchain/issuers	Created Issuer
+16/03/2017 14:20:48	ENTER	GET blockchain/issuers	INPUT: {}
+undefined16/03/2017 14:21:00	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 14:23:11	INFO	Startup complete on port	8080
+	16/03/2017 14:23:12	INFO	Startup	Enrolled registrar
+	16/03/2017 14:23:12	INFO	Startup	Set registrar
+	16/03/2017 14:23:12	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 14:23:53	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 14:24:06	INFO	Chaincode is UP	undefined
+16/03/2017 14:24:06	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 14:39:00	INFO	Startup complete on port	8080
+	16/03/2017 14:39:00	INFO	Startup	Enrolled registrar
+	16/03/2017 14:39:00	INFO	Startup	Set registrar
+	16/03/2017 14:39:00	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:39:57	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 14:41:00	INFO	Startup complete on port	8080
+	16/03/2017 14:41:00	INFO	Startup	Enrolled registrar
+	16/03/2017 14:41:00	INFO	Startup	Set registrar
+	16/03/2017 14:41:00	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:41:43	INFO	Startup complete on port	8080
+	16/03/2017 14:41:43	INFO	Startup	Enrolled registrar
+	16/03/2017 14:41:43	INFO	Startup	Set registrar
+	16/03/2017 14:41:43	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:42:38	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 14:43:45	INFO	Chaincode is UP	undefined
+	16/03/2017 14:44:00	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "ReferenceError: req is not defined\n    at __dirname.create.attachmentURI (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:21:67)\n    at Identity.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:19:16)\n    at Object.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/identity/CRUD/create.js:37:21)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/app.js:65:14\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:281:22\n    at param (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:354:14)"
+undefined	16/03/2017 14:44:46	INFO	Chaincode is UP	undefined
+	16/03/2017 14:44:53	INFO	Startup complete on port	8080
+	16/03/2017 14:44:53	INFO	Startup	Enrolled registrar
+	16/03/2017 14:44:53	INFO	Startup	Set registrar
+	16/03/2017 14:44:53	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:45:50	INFO	Chaincode is UP	undefined
+	16/03/2017 14:45:50	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:46:29	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Invalid IV length]"
+	16/03/2017 14:46:29	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [err is not defined]"
+	16/03/2017 14:46:29	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "ReferenceError: err is not defined\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:65:32"
+undefined	16/03/2017 14:47:07	INFO	Chaincode is UP	undefined
+	16/03/2017 14:47:19	INFO	Startup complete on port	8080
+	16/03/2017 14:47:19	INFO	Startup	Enrolled registrar
+	16/03/2017 14:47:19	INFO	Startup	Set registrar
+	16/03/2017 14:47:19	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:47:26	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 14:47:26	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 14:48:23	INFO	Chaincode is UP	undefined
+	16/03/2017 14:48:23	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:48:45	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Invalid IV length]"
+	16/03/2017 14:48:45	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Invalid IV length\n    at Error (native)\n    at new Cipheriv (crypto.js:187:16)\n    at Object.Cipheriv (crypto.js:185:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:30:45"
+	16/03/2017 14:49:08	INFO	Startup complete on port	8080
+	16/03/2017 14:49:08	INFO	Startup	Enrolled registrar
+	16/03/2017 14:49:08	INFO	Startup	Set registrar
+	16/03/2017 14:49:08	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:49:50	INFO	Startup complete on port	8080
+	16/03/2017 14:49:50	INFO	Startup	Enrolled registrar
+	16/03/2017 14:49:50	INFO	Startup	Set registrar
+	16/03/2017 14:49:50	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:49:55	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 14:49:55	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 14:50:46	INFO	Chaincode is UP	undefined
+	16/03/2017 14:50:46	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:52:03	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Not a string or buffer]"
+	16/03/2017 14:52:03	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: Not a string or buffer\n    at TypeError (native)\n    at Cipheriv.Cipher.update (crypto.js:140:26)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:39:33"
+undefined	16/03/2017 14:52:43	INFO	Startup complete on port	8080
+	16/03/2017 14:52:43	INFO	Startup	Enrolled registrar
+	16/03/2017 14:52:43	INFO	Startup	Set registrar
+	16/03/2017 14:52:43	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:53:40	INFO	Chaincode is UP	undefined
+	16/03/2017 14:53:40	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:54:15	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Not a string or buffer]"
+	16/03/2017 14:54:15	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: Not a string or buffer\n    at TypeError (native)\n    at Cipheriv.Cipher.update (crypto.js:140:26)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:39:33"
+undefined	16/03/2017 14:54:33	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:54:55	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Not a string or buffer]"
+	16/03/2017 14:54:55	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: Not a string or buffer\n    at TypeError (native)\n    at Cipheriv.Cipher.update (crypto.js:140:26)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:39:33"
+	16/03/2017 14:55:06	INFO	Chaincode is UP	undefined
+	16/03/2017 14:55:32	INFO	Chaincode is UP	undefined
+	16/03/2017 14:56:11	INFO	Startup complete on port	8080
+	16/03/2017 14:56:11	INFO	Startup	Enrolled registrar
+	16/03/2017 14:56:11	INFO	Startup	Set registrar
+	16/03/2017 14:56:11	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:57:18	INFO	Chaincode is UP	undefined
+	16/03/2017 14:57:18	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:57:58	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [pek is not defined]"
+	16/03/2017 14:57:58	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "ReferenceError: pek is not defined\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:62"
+	16/03/2017 14:58:05	INFO	Startup complete on port	8080
+	16/03/2017 14:58:05	INFO	Startup	Enrolled registrar
+	16/03/2017 14:58:05	INFO	Startup	Set registrar
+	16/03/2017 14:58:05	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:59:03	INFO	Chaincode is UP	undefined
+	16/03/2017 14:59:03	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 14:59:30	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [this is not a typed array.]"
+	16/03/2017 14:59:30	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: this is not a typed array.\n    at Function.from (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:47:51"
+	16/03/2017 14:59:41	INFO	Startup complete on port	8080
+	16/03/2017 14:59:41	INFO	Startup	Enrolled registrar
+	16/03/2017 14:59:41	INFO	Startup	Set registrar
+	16/03/2017 14:59:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 14:59:48	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 14:59:48	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:00:46	INFO	Chaincode is UP	undefined
+	16/03/2017 15:00:46	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:02:38	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [this is not a typed array.]"
+	16/03/2017 15:02:38	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: this is not a typed array.\n    at Function.from (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:47:51"
+undefined	16/03/2017 15:03:22	INFO	Chaincode is UP	undefined
+undefinedundefined	16/03/2017 15:04:47	INFO	Startup complete on port	8080
+	16/03/2017 15:04:47	INFO	Startup	Enrolled registrar
+	16/03/2017 15:04:47	INFO	Startup	Set registrar
+	16/03/2017 15:04:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:06:04	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 15:07:23	INFO	Chaincode is UP	undefined
+	16/03/2017 15:07:41	INFO	Startup complete on port	8080
+	16/03/2017 15:07:41	INFO	Startup	Enrolled registrar
+	16/03/2017 15:07:41	INFO	Startup	Set registrar
+	16/03/2017 15:07:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:09:33	INFO	Chaincode is UP	undefined
+	16/03/2017 15:09:33	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:10:24	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [buf.copy is not a function]"
+	16/03/2017 15:10:24	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: buf.copy is not a function\n    at Function.Buffer.concat (buffer.js:240:9)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:34:69"
+undefinedundefinedundefinedundefinedundefined	16/03/2017 15:14:00	INFO	Startup complete on port	8080
+	16/03/2017 15:14:00	INFO	Startup	Enrolled registrar
+	16/03/2017 15:14:00	INFO	Startup	Set registrar
+	16/03/2017 15:14:00	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:14:13	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:14:13	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:14:19	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:14:19	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:14:28	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:14:28	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:14:39	INFO	Startup complete on port	8080
+	16/03/2017 15:14:39	INFO	Startup	Enrolled registrar
+	16/03/2017 15:14:39	INFO	Startup	Set registrar
+	16/03/2017 15:14:39	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:14:48	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:14:48	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:17:25	INFO	Startup complete on port	8080
+	16/03/2017 15:17:25	INFO	Startup	Enrolled registrar
+	16/03/2017 15:17:25	INFO	Startup	Set registrar
+	16/03/2017 15:17:25	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:17:40	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:17:40	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:18:22	INFO	Startup complete on port	8080
+	16/03/2017 15:18:22	INFO	Startup	Enrolled registrar
+	16/03/2017 15:18:22	INFO	Startup	Set registrar
+	16/03/2017 15:18:22	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:18:51	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:18:51	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:21:44	INFO	Startup complete on port	8080
+	16/03/2017 15:21:44	INFO	Startup	Enrolled registrar
+	16/03/2017 15:21:44	INFO	Startup	Set registrar
+	16/03/2017 15:21:44	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:43:45	INFO	Startup complete on port	8080
+	16/03/2017 15:43:45	INFO	Startup	Enrolled registrar
+	16/03/2017 15:43:45	INFO	Startup	Set registrar
+	16/03/2017 15:43:45	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:43:59	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [started twice without stopping]"
+	16/03/2017 15:43:59	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+	16/03/2017 15:44:48	INFO	Chaincode is UP	undefined
+	16/03/2017 15:44:48	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:47:27	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [this is not a typed array.]"
+	16/03/2017 15:47:27	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "TypeError: this is not a typed array.\n    at Function.from (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:48:51"
+undefined	16/03/2017 15:47:59	INFO	Startup complete on port	8080
+	16/03/2017 15:47:59	INFO	Startup	Enrolled registrar
+	16/03/2017 15:47:59	INFO	Startup	Set registrar
+	16/03/2017 15:47:59	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:48:46	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 15:49:51	INFO	Chaincode is UP	undefined
+	16/03/2017 15:50:04	INFO	Startup complete on port	8080
+	16/03/2017 15:50:04	INFO	Startup	Enrolled registrar
+	16/03/2017 15:50:04	INFO	Startup	Set registrar
+	16/03/2017 15:50:04	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:50:53	INFO	Chaincode is UP	undefined
+	16/03/2017 15:51:22	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489675882.610743511\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489675882.610719519\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 15:51:22	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489675882.610743511\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489675882.610719519\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 15:51:28	INFO	Chaincode is UP	undefined
+	16/03/2017 15:51:30	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:51:30	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [encryptionKey is not defined]"
+	16/03/2017 15:51:30	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "ReferenceError: encryptionKey is not defined\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:52:165"
+	16/03/2017 15:51:57	INFO	Chaincode is UP	undefined
+	16/03/2017 15:52:05	INFO	Startup complete on port	8080
+	16/03/2017 15:52:05	INFO	Startup	Enrolled registrar
+	16/03/2017 15:52:05	INFO	Startup	Set registrar
+	16/03/2017 15:52:05	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 15:52:54	INFO	Chaincode is UP	undefined
+	16/03/2017 15:52:54	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:54:02	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [invalid arg specified undefined in ]"
+	16/03/2017 15:54:02	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: invalid arg specified undefined in \n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:72:31\n    at Array.forEach (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:70:22\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:52:30"
+undefined	16/03/2017 15:54:16	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:54:28	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489676068.532874254\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489676068.532864662\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 15:54:28	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489676068.532874254\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489676068.532864662\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 15:54:38	INFO	Chaincode is UP	undefined
+	16/03/2017 15:54:47	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 15:55:57	INFO	Chaincode is UP	undefined
+	16/03/2017 15:55:58	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 15:55:58	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 15:56:27	INFO	Chaincode is UP	undefined
+	16/03/2017 15:56:57	INFO	Chaincode is UP	undefined
+	16/03/2017 15:57:28	INFO	Chaincode is UP	undefined
+	16/03/2017 15:57:58	INFO	Chaincode is UP	undefined
+	16/03/2017 15:58:28	INFO	Chaincode is UP	undefined
+	16/03/2017 15:58:59	INFO	Chaincode is UP	undefined
+	16/03/2017 15:59:29	INFO	Chaincode is UP	undefined
+	16/03/2017 15:59:59	INFO	Chaincode is UP	undefined
+	16/03/2017 16:00:29	INFO	Chaincode is UP	undefined
+	16/03/2017 16:01:00	INFO	Chaincode is UP	undefined
+	16/03/2017 16:01:30	INFO	Chaincode is UP	undefined
+	16/03/2017 16:02:00	INFO	Chaincode is UP	undefined
+	16/03/2017 16:02:31	INFO	Chaincode is UP	undefined
+	16/03/2017 16:03:01	INFO	Chaincode is UP	undefined
+	16/03/2017 16:03:32	INFO	Chaincode is UP	undefined
+	16/03/2017 16:04:03	INFO	Chaincode is UP	undefined
+	16/03/2017 16:04:33	INFO	Chaincode is UP	undefined
+	16/03/2017 16:05:03	INFO	Chaincode is UP	undefined
+	16/03/2017 16:05:33	INFO	Chaincode is UP	undefined
+	16/03/2017 16:06:04	INFO	Chaincode is UP	undefined
+	16/03/2017 16:06:34	INFO	Chaincode is UP	undefined
+	16/03/2017 16:07:04	INFO	Chaincode is UP	undefined
+	16/03/2017 16:07:35	INFO	Chaincode is UP	undefined
+	16/03/2017 16:08:05	INFO	Chaincode is UP	undefined
+	16/03/2017 16:08:35	INFO	Chaincode is UP	undefined
+	16/03/2017 16:09:05	INFO	Chaincode is UP	undefined
+	16/03/2017 16:09:36	INFO	Chaincode is UP	undefined
+	16/03/2017 16:10:06	INFO	Chaincode is UP	undefined
+	16/03/2017 16:10:53	INFO	Startup complete on port	8080
+	16/03/2017 16:10:53	INFO	Startup	Enrolled registrar
+	16/03/2017 16:10:53	INFO	Startup	Set registrar
+	16/03/2017 16:10:53	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 16:11:57	INFO	Chaincode is UP	undefined
+	16/03/2017 16:12:08	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 16:12:12	ERROR	Issuer	OUTPUT: "Failed to register issuer on BlockChain NIMC-2341175555"
+	16/03/2017 16:12:12	ERROR	POST blockchain/issuers	OUTPUT: "Error: Error: {\"created\":\"@1489677132.898990687\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489677132.898965088\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 16:12:19	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 16:12:24	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 16:12:24	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 16:12:32	INFO	Chaincode is UP	undefined
+16/03/2017 16:12:33	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 16:12:37	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 16:24:09	INFO	Startup complete on port	8080
+	16/03/2017 16:24:09	INFO	Startup	Enrolled registrar
+	16/03/2017 16:24:09	INFO	Startup	Set registrar
+	16/03/2017 16:24:09	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 16:24:54	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 16:24:54	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 16:24:58	INFO	Chaincode is UP	undefined
+16/03/2017 16:25:00	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+16/03/2017 16:25:05	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 16:27:22	INFO	Startup complete on port	8080
+	16/03/2017 16:27:22	INFO	Startup	Enrolled registrar
+	16/03/2017 16:27:22	INFO	Startup	Set registrar
+	16/03/2017 16:27:22	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 16:27:29	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
+	16/03/2017 16:27:29	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 16:28:28	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 16:29:25	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 16:29:25	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 16:29:33	INFO	Chaincode is UP	undefined
+	16/03/2017 16:30:04	INFO	Chaincode is UP	undefined
+	16/03/2017 16:30:17	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489678217.966417431\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489678217.966384600\",\"description\":\"Secure read failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":166,\"referenced_errors\":[{\"created\":\"@1489678217.966371486\",\"description\":\"Socket closed\",\"fd\":58,\"file\":\"../src/core/lib/iomgr/tcp_posix.c\",\"file_line\":249,\"target_address\":\"ipv4:169.47.55.104:30003\"}]}]}]"
+	16/03/2017 16:30:17	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489678217.966417431\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489678217.966384600\",\"description\":\"Secure read failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":166,\"referenced_errors\":[{\"created\":\"@1489678217.966371486\",\"description\":\"Socket closed\",\"fd\":58,\"file\":\"../src/core/lib/iomgr/tcp_posix.c\",\"file_line\":249,\"target_address\":\"ipv4:169.47.55.104:30003\"}]}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 16:30:28	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error]"
+	16/03/2017 16:30:28	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+undefined	16/03/2017 16:30:57	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 16:31:27	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489678287.927926648\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489678287.927912023\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 16:31:27	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489678287.927926648\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489678287.927912023\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 16:31:32	INFO	Chaincode is UP	undefined
+	16/03/2017 16:31:39	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 16:31:46	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 16:31:46	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 16:31:58	INFO	Chaincode is UP	undefined
+	16/03/2017 16:32:29	INFO	Chaincode is UP	undefined
+16/03/2017 16:32:30	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 16:32:35	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 16:36:44	INFO	Startup complete on port	8080
+	16/03/2017 16:36:44	INFO	Startup	Enrolled registrar
+	16/03/2017 16:36:44	INFO	Startup	Set registrar
+	16/03/2017 16:36:44	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 16:37:39	INFO	Chaincode is UP	undefined
+	16/03/2017 16:37:50	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 16:37:54	ERROR	Issuer	OUTPUT: "Failed to register issuer on BlockChain NIMC-2341175555"
+	16/03/2017 16:37:54	ERROR	POST blockchain/issuers	OUTPUT: "Error: Error: {\"created\":\"@1489678674.921957810\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489678674.921941342\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 16:37:56	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 16:38:01	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 16:38:01	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 16:38:11	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 16:38:11	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 16:38:15	INFO	Chaincode is UP	undefined
+	16/03/2017 16:38:20	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 16:38:28	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 16:38:28	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 16:38:44	INFO	Chaincode is UP	undefined
+	16/03/2017 16:39:15	INFO	Chaincode is UP	undefined
+	16/03/2017 16:39:45	INFO	Chaincode is UP	undefined
+                                                                                                                                                                                                                                                            	16/03/2017 17:07:05	INFO	Startup complete on port	8080
+	16/03/2017 17:07:05	INFO	Startup	Enrolled registrar
+	16/03/2017 17:07:05	INFO	Startup	Set registrar
+	16/03/2017 17:07:05	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:08:16	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:08:22	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:08:22	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 17:08:35	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:08:35	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:08:45	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:08:51	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:08:51	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:09:33	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:09:38	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:09:38	INFO	POST blockchain/issuers	Created Issuer
+16/03/2017 17:09:41	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 17:09:45	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 17:10:41	INFO	Startup complete on port	8080
+	16/03/2017 17:10:41	INFO	Startup	Enrolled registrar
+	16/03/2017 17:10:41	INFO	Startup	Set registrar
+	16/03/2017 17:10:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:11:33	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:11:33	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:11:39	INFO	Chaincode is UP	undefined
+	16/03/2017 17:11:44	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:11:49	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:11:49	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:12:17	INFO	Chaincode is UP	undefined
+	16/03/2017 17:12:46	INFO	Chaincode is UP	undefined
+	16/03/2017 17:13:15	INFO	Chaincode is UP	undefined
+16/03/2017 17:13:15	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 17:13:22	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 17:16:30	INFO	Startup complete on port	8080
+	16/03/2017 17:16:30	INFO	Startup	Enrolled registrar
+	16/03/2017 17:16:30	INFO	Startup	Set registrar
+	16/03/2017 17:16:30	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:16:40	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:16:43	ERROR	Issuer	OUTPUT: "Failed to register issuer on BlockChain NIMC-2341175555"
+	16/03/2017 17:16:43	ERROR	POST blockchain/issuers	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 17:17:18	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:17:24	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:17:24	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 17:17:29	INFO	Chaincode is UP	undefined
+	16/03/2017 17:17:42	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:17:42	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+16/03/2017 17:17:42	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 17:17:51	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 17:18:38	INFO	Startup complete on port	8080
+	16/03/2017 17:18:39	INFO	Startup	Enrolled registrar
+	16/03/2017 17:18:39	INFO	Startup	Set registrar
+	16/03/2017 17:18:39	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:19:50	INFO	Chaincode is UP	undefined
+	16/03/2017 17:19:51	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:19:56	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:19:56	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:20:26	INFO	Chaincode is UP	undefined
+	16/03/2017 17:20:27	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:20:32	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:20:32	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:21:04	INFO	Chaincode is UP	undefined
+	16/03/2017 17:21:25	INFO	Chaincode is UP	undefined
+	16/03/2017 17:21:56	INFO	Chaincode is UP	undefined
+	16/03/2017 17:22:28	INFO	Chaincode is UP	undefined
+	16/03/2017 17:22:41	INFO	Startup complete on port	8080
+	16/03/2017 17:22:41	INFO	Startup	Enrolled registrar
+	16/03/2017 17:22:41	INFO	Startup	Set registrar
+	16/03/2017 17:22:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:23:24	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:23:29	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:23:29	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 17:23:38	INFO	Chaincode is UP	undefined
+	16/03/2017 17:24:01	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:24:01	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:24:19	INFO	Chaincode is UP	undefined
+	16/03/2017 17:24:20	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:24:20	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Not a public key.]"
+	16/03/2017 17:24:20	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Not a public key.\n    at Object.createPublicKey (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/ursa/lib/ursa.js:419:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:46"
+	16/03/2017 17:24:41	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
+	16/03/2017 17:24:41	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error: {\"created\":\"@1489681481.342655035\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489681481.342642753\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 17:24:49	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:24:49	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:24:49	INFO	Chaincode is UP	undefined
+	16/03/2017 17:25:00	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:25:05	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:25:05	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:25:14	INFO	Chaincode is UP	undefined
+	16/03/2017 17:25:45	INFO	Chaincode is UP	undefined
+	16/03/2017 17:26:16	INFO	Chaincode is UP	undefined
+	16/03/2017 17:26:46	INFO	Chaincode is UP	undefined
+	16/03/2017 17:27:16	INFO	Chaincode is UP	undefined
+	16/03/2017 17:28:14	INFO	Chaincode is UP	undefined
+	16/03/2017 17:28:20	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:42:58	INFO	Chaincode is UP	undefined
+	16/03/2017 17:43:03	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:43:03	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:43:11	INFO	Startup complete on port	8080
+	16/03/2017 17:43:11	INFO	Startup	Enrolled registrar
+	16/03/2017 17:43:11	INFO	Startup	Set registrar
+	16/03/2017 17:43:11	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:44:13	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 17:44:52	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:44:58	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:44:58	INFO	POST blockchain/issuers	Created Issuer
+undefined	16/03/2017 17:45:52	INFO	Chaincode is UP	undefined
+	16/03/2017 17:46:03	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:46:03	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:46:21	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:46:21	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Not a public key.]"
+	16/03/2017 17:46:21	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Not a public key.\n    at Object.createPublicKey (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/ursa/lib/ursa.js:419:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:46"
+	16/03/2017 17:46:23	INFO	Chaincode is UP	undefined
+	16/03/2017 17:46:37	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:46:37	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:46:49	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:46:55	INFO	Chaincode is UP	undefined
+	16/03/2017 17:47:00	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:47:00	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:47:27	INFO	Chaincode is UP	undefined
+	16/03/2017 17:47:52	INFO	Chaincode is UP	undefined
+	16/03/2017 17:48:22	INFO	Chaincode is UP	undefined
+	16/03/2017 17:48:50	INFO	Chaincode is UP	undefined
+	16/03/2017 17:49:22	INFO	Chaincode is UP	undefined
+	16/03/2017 17:49:53	INFO	Chaincode is UP	undefined
+	16/03/2017 17:50:23	INFO	Chaincode is UP	undefined
+	16/03/2017 17:50:53	INFO	Chaincode is UP	undefined
+	16/03/2017 17:51:23	INFO	Chaincode is UP	undefined
+	16/03/2017 17:52:00	INFO	Chaincode is UP	undefined
+	16/03/2017 17:52:27	INFO	Chaincode is UP	undefined
+	16/03/2017 17:52:54	INFO	Chaincode is UP	undefined
+	16/03/2017 17:53:26	INFO	Chaincode is UP	undefined
+	16/03/2017 17:53:55	INFO	Chaincode is UP	undefined
+	16/03/2017 17:54:25	INFO	Chaincode is UP	undefined
+	16/03/2017 17:54:55	INFO	Chaincode is UP	undefined
+	16/03/2017 17:55:28	INFO	Chaincode is UP	undefined
+	16/03/2017 17:55:47	INFO	Startup complete on port	8080
+	16/03/2017 17:55:47	INFO	Startup	Enrolled registrar
+	16/03/2017 17:55:47	INFO	Startup	Set registrar
+	16/03/2017 17:55:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 17:56:39	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 17:56:44	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 17:56:44	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 17:56:54	INFO	Chaincode is UP	undefined
+	16/03/2017 17:57:11	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
+	16/03/2017 17:57:11	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error: {\"created\":\"@1489683431.855056564\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489683431.855040445\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:98:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 17:57:38	INFO	Chaincode is UP	undefined
+	16/03/2017 17:57:38	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 17:57:38	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 17:57:55	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 17:58:00	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 17:58:00	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 17:58:01	INFO	Chaincode is UP	undefined
+	16/03/2017 17:58:34	INFO	Chaincode is UP	undefined
+	16/03/2017 17:59:01	INFO	Chaincode is UP	undefined
+	16/03/2017 17:59:36	INFO	Chaincode is UP	undefined
+	16/03/2017 18:00:18	INFO	Chaincode is UP	undefined
+	16/03/2017 18:00:39	INFO	Chaincode is UP	undefined
+	16/03/2017 18:01:05	INFO	Chaincode is UP	undefined
+16/03/2017 18:01:27	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:01:36	INFO	Chaincode is UP	undefined
+	16/03/2017 18:01:36	ERROR	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:02:06	INFO	Chaincode is UP	undefined
+16/03/2017 18:02:29	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:02:38	INFO	Chaincode is UP	undefined
+	16/03/2017 18:02:43	ERROR	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+16/03/2017 18:02:55	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:03:22	ERROR	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:03:24	INFO	Chaincode is UP	undefined
+	16/03/2017 18:03:34	INFO	Startup complete on port	8080
+	16/03/2017 18:03:34	INFO	Startup	Enrolled registrar
+	16/03/2017 18:03:34	INFO	Startup	Set registrar
+	16/03/2017 18:03:34	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 18:04:43	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:05:01	INFO	Chaincode is UP	undefined
+16/03/2017 18:05:02	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+undefined16/03/2017 18:05:38	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+16/03/2017 18:09:01	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+undefined	16/03/2017 18:09:43	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:10:45	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:11:44	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:13:04	INFO	Startup complete on port	8080
+	16/03/2017 18:13:04	INFO	Startup	Enrolled registrar
+	16/03/2017 18:13:04	INFO	Startup	Set registrar
+	16/03/2017 18:13:04	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 18:14:27	INFO	Chaincode is UP	undefined
+	16/03/2017 18:14:40	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 18:14:45	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 18:14:45	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 18:14:56	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 18:14:56	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 18:15:06	INFO	Chaincode is UP	undefined
+	16/03/2017 18:15:30	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489684530.274554488\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489684530.274539970\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 18:15:30	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489684530.274554488\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489684530.274539970\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 18:15:37	INFO	Chaincode is UP	undefined
+	16/03/2017 18:15:39	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 18:15:44	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 18:15:44	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 18:15:50	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+16/03/2017 18:16:32	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:16:37	INFO	Chaincode is UP	undefined
+	16/03/2017 18:17:08	INFO	Chaincode is UP	undefined
+16/03/2017 18:17:12	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+16/03/2017 18:17:26	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:17:39	INFO	Chaincode is UP	undefined
+	16/03/2017 18:18:09	INFO	Chaincode is UP	undefined
+	16/03/2017 18:18:40	INFO	Chaincode is UP	undefined
+	16/03/2017 18:19:10	INFO	Chaincode is UP	undefined
+	16/03/2017 18:19:41	INFO	Chaincode is UP	undefined
+	16/03/2017 18:20:11	INFO	Chaincode is UP	undefined
+	16/03/2017 18:20:48	INFO	Startup complete on port	8080
+	16/03/2017 18:20:48	INFO	Startup	Enrolled registrar
+	16/03/2017 18:20:48	INFO	Startup	Set registrar
+	16/03/2017 18:20:48	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 18:21:34	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:21:46	INFO	Chaincode is UP	undefined
+	16/03/2017 18:21:46	ERROR	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+16/03/2017 18:22:12	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:22:21	ERROR	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:22:22	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 18:22:22	INFO	Chaincode is UP	undefined
+	16/03/2017 18:22:27	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 18:22:27	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 18:22:43	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 18:22:43	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 18:22:52	INFO	Chaincode is UP	undefined
+	16/03/2017 18:22:54	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 18:22:59	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 18:22:59	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 18:23:05	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+16/03/2017 18:23:11	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:23:22	INFO	Chaincode is UP	undefined
+	16/03/2017 18:23:53	INFO	Chaincode is UP	undefined
+	16/03/2017 18:24:24	INFO	Chaincode is UP	undefined
+	16/03/2017 18:24:54	INFO	Chaincode is UP	undefined
+	16/03/2017 18:25:24	INFO	Chaincode is UP	undefined
+	16/03/2017 18:25:54	INFO	Chaincode is UP	undefined
+	16/03/2017 18:26:24	INFO	Chaincode is UP	undefined
+	16/03/2017 18:26:54	INFO	Chaincode is UP	undefined
+	16/03/2017 18:27:25	INFO	Chaincode is UP	undefined
+	16/03/2017 18:27:55	INFO	Chaincode is UP	undefined
+	16/03/2017 18:28:26	INFO	Chaincode is UP	undefined
+	16/03/2017 18:28:56	INFO	Chaincode is UP	undefined
+	16/03/2017 18:29:26	INFO	Chaincode is UP	undefined
+	16/03/2017 18:29:57	INFO	Chaincode is UP	undefined
+16/03/2017 18:30:26	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 18:30:26	INFO	Chaincode is UP	undefined
+16/03/2017 18:30:31	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 18:32:52	INFO	Startup complete on port	8080
+	16/03/2017 18:32:52	INFO	Startup	Enrolled registrar
+	16/03/2017 18:32:52	INFO	Startup	Set registrar
+	16/03/2017 18:32:52	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 18:33:51	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:33:52	INFO	Chaincode is UP	undefined
+16/03/2017 18:39:55	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+undefined	16/03/2017 18:40:34	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:41:34	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:42:35	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:43:35	INFO	Chaincode is UP	undefined
+	16/03/2017 18:43:45	INFO	Startup complete on port	8080
+	16/03/2017 18:43:45	INFO	Startup	Enrolled registrar
+	16/03/2017 18:43:45	INFO	Startup	Set registrar
+	16/03/2017 18:43:45	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 18:44:46	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 18:45:29	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 18:45:34	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 18:45:34	INFO	POST blockchain/issuers	Created Issuer
+16/03/2017 18:45:39	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 18:45:44	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 18:46:47	INFO	Startup complete on port	8080
+	16/03/2017 18:46:47	INFO	Startup	Enrolled registrar
+	16/03/2017 18:46:47	INFO	Startup	Set registrar
+	16/03/2017 18:46:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 18:47:45	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 18:47:45	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 18:47:52	INFO	Chaincode is UP	undefined
+	16/03/2017 18:48:18	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489686498.362300564\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489686498.362281727\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 18:48:18	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489686498.362300564\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489686498.362281727\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 18:48:30	INFO	Chaincode is UP	undefined
+	16/03/2017 18:48:51	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044 [Error: {\"created\":\"@1489686531.219051839\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489686531.219040602\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}]"
+	16/03/2017 18:48:51	ERROR	POST blockchain/identity/ECB-223113345	OUTPUT: "Error: Error: {\"created\":\"@1489686531.219051839\",\"description\":\"Endpoint read failed\",\"file\":\"../src/core/ext/transport/chttp2/transport/chttp2_transport.c\",\"file_line\":1851,\"grpc_status\":14,\"occurred_during_write\":0,\"referenced_errors\":[{\"created\":\"@1489686531.219040602\",\"description\":\"Unwrap failed\",\"file\":\"../src/core/lib/security/transport/secure_endpoint.c\",\"file_line\":224,\"tsi_code\":7,\"tsi_error\":\"TSI_INTERNAL_ERROR\"}]}\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:437:14"
+	16/03/2017 18:49:02	INFO	Chaincode is UP	undefined
+	16/03/2017 18:49:02	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 18:49:08	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 18:49:08	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 18:49:28	ENTER	GET blockchain/identity/ECB-223113345	INPUT: {}
+	16/03/2017 18:49:30	INFO	Chaincode is UP	undefined
+16/03/2017 18:49:38	EXIT	GET blockchain/identity/ECB-223113345	OUTPUT: {}
+	16/03/2017 18:50:00	INFO	Chaincode is UP	undefined
+	16/03/2017 18:50:29	INFO	Chaincode is UP	undefined
+	16/03/2017 18:50:59	INFO	Chaincode is UP	undefined
+	16/03/2017 18:51:30	INFO	Chaincode is UP	undefined
+	16/03/2017 18:52:02	INFO	Chaincode is UP	undefined
+	16/03/2017 18:52:31	INFO	Chaincode is UP	undefined
+	16/03/2017 18:53:02	INFO	Chaincode is UP	undefined
+	16/03/2017 18:53:33	INFO	Chaincode is UP	undefined
+	16/03/2017 18:54:01	INFO	Chaincode is UP	undefined
+	16/03/2017 18:54:32	INFO	Chaincode is UP	undefined
+	16/03/2017 18:54:57	INFO	Identity	Successfully got public Key for ECB-223113345
+	16/03/2017 18:55:02	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB-223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 18:55:02	INFO	POST blockchain/identity/ECB-223113345	Identity NIMC-2056I6840849044 added
+	16/03/2017 18:55:03	INFO	Chaincode is UP	undefined
+	16/03/2017 18:55:34	INFO	Chaincode is UP	undefined
+	16/03/2017 18:56:04	INFO	Chaincode is UP	undefined
+	16/03/2017 18:56:35	INFO	Chaincode is UP	undefined
+	16/03/2017 18:57:03	INFO	Chaincode is UP	undefined
+	16/03/2017 18:57:34	INFO	Chaincode is UP	undefined
+	16/03/2017 18:58:06	INFO	Chaincode is UP	undefined
+	16/03/2017 18:58:36	INFO	Chaincode is UP	undefined
+	16/03/2017 18:59:07	INFO	Chaincode is UP	undefined
+	16/03/2017 18:59:23	INFO	Identity	Identity registered on BlockChain ECB223113345
+	16/03/2017 18:59:23	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 18:59:32	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 18:59:37	INFO	Chaincode is UP	undefined
+	16/03/2017 18:59:37	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 18:59:37	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 18:59:57	ENTER	GET blockchain/identity/ECB223113345	INPUT: {}
+16/03/2017 19:00:08	EXIT	GET blockchain/identity/ECB223113345	OUTPUT: {}
+	16/03/2017 19:00:11	INFO	Chaincode is UP	undefined
+	16/03/2017 19:00:38	INFO	Chaincode is UP	undefined
+	16/03/2017 19:01:08	INFO	Chaincode is UP	undefined
+	16/03/2017 19:01:39	INFO	Chaincode is UP	undefined
+	16/03/2017 19:02:08	INFO	Chaincode is UP	undefined
+	16/03/2017 19:02:39	INFO	Chaincode is UP	undefined
+	16/03/2017 19:03:08	INFO	Chaincode is UP	undefined
+	16/03/2017 19:03:40	INFO	Chaincode is UP	undefined
+	16/03/2017 19:04:10	INFO	Chaincode is UP	undefined
+	16/03/2017 19:04:41	INFO	Chaincode is UP	undefined
+	16/03/2017 19:05:12	INFO	Chaincode is UP	undefined
+	16/03/2017 19:05:42	INFO	Chaincode is UP	undefined
+	16/03/2017 19:06:09	INFO	Chaincode is UP	undefined
+	16/03/2017 19:06:42	INFO	Chaincode is UP	undefined
+	16/03/2017 19:07:13	INFO	Chaincode is UP	undefined
+	16/03/2017 19:07:42	INFO	Chaincode is UP	undefined
+	16/03/2017 19:08:12	INFO	Chaincode is UP	undefined
+	16/03/2017 19:08:43	INFO	Chaincode is UP	undefined
+	16/03/2017 19:09:14	INFO	Startup complete on port	8080
+	16/03/2017 19:09:14	INFO	Startup	Enrolled registrar
+	16/03/2017 19:09:14	INFO	Startup	Set registrar
+	16/03/2017 19:09:14	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 19:10:03	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 19:10:08	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 19:10:08	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 19:10:18	INFO	Identity	Identity registered on BlockChain ECB223113345
+	16/03/2017 19:10:18	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 19:10:18	INFO	Chaincode is UP	undefined
+	16/03/2017 19:10:53	INFO	Chaincode is UP	undefined
+	16/03/2017 19:11:16	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:11:21	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 19:11:21	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+undefined	16/03/2017 19:11:59	INFO	Chaincode is UP	undefined
+	16/03/2017 19:12:25	INFO	Chaincode is UP	undefined
+	16/03/2017 19:12:56	INFO	Chaincode is UP	undefined
+	16/03/2017 19:13:27	INFO	Chaincode is UP	undefined
+	16/03/2017 19:13:57	INFO	Chaincode is UP	undefined
+	16/03/2017 19:14:27	INFO	Chaincode is UP	undefined
+	16/03/2017 19:14:58	INFO	Chaincode is UP	undefined
+	16/03/2017 19:15:27	INFO	Chaincode is UP	undefined
+	16/03/2017 19:15:58	INFO	Chaincode is UP	undefined
+	16/03/2017 19:16:29	INFO	Chaincode is UP	undefined
+	16/03/2017 19:16:59	INFO	Chaincode is UP	undefined
+	16/03/2017 19:17:16	INFO	Startup complete on port	8080
+	16/03/2017 19:17:16	INFO	Startup	Enrolled registrar
+	16/03/2017 19:17:16	INFO	Startup	Set registrar
+	16/03/2017 19:17:16	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	

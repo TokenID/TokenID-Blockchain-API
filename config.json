@@ -9,5 +9,5 @@
     "certificateFileName" : "us.blockchain.ibm.com.cert",
     "keyStoreLocation" : "./keyValStore",
     "chainName"  : "clientChain",
-    "chainCodeID" : "bd46ae2ec191c01bffe25c86f53283965a04bbba571367494ca3e1461cc9b2c0106659178db271979259be110f3aab2eb293f1ffd0cf7d9ea0a80be83198935a"
+    "chainCodeID" : "e162a29f287d2d76ae91ab813b92444795b865ad01b696265ead5093ca80c382e41010fe0e2013b88cd8aab6377fad4263e8a35b9ad81c6b4604f62e65ea22b4"
 }

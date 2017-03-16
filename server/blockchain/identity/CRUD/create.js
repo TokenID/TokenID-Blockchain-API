@@ -2,7 +2,6 @@
 const configFile = require(__dirname + '/../../../configurations/configuration.js');
 let tracing = require(__dirname + '/../../../tools/traces/trace.js');
 let Util = require(__dirname + '/../../../tools/utils/util');
-let Issuer = require(__dirname + '/../../../tools/utils/issuer');
 let Identity = require(__dirname + '/../../../tools/utils/identity');
 const pem = require('pem')
 const ursa = require('ursa')
@@ -10,56 +9,40 @@ const ursa = require('ursa')
 function create(req, res, next) {
     let securityContext = configFile.config.securityContext;
 
-    let issuer = new Issuer(securityContext);
+    let issuer = new Identity(securityContext);
     let reqBody = req.body
+    let providerEnrollmentID = req.params.providerEnrollmentID;
 
     if (!reqBody) {
         res.status(400).json({ message: "Request body cannot be empty" });
         return;
     }
-    if (!reqBody.enrollID) {
-        res.status(400).json({ message: "'enrollID' required" });
+    if (!reqBody.identityCode) {
+        res.status(400).json({ message: "'identityCode' required" });
         return
     }
-    if (!reqBody.issuerCode) {
-        res.status(400).json({ message: "'issuerCode' required" });
+    if (!reqBody.identityTypeCode) {
+        res.status(400).json({ message: "'identityTypeCode' required" });
+        return
+    }
+    if (!reqBody.identityPayload) {
+        res.status(400).json({ message: "'identityPayload' required"});
         return
     }
     if (!reqBody.issuerID) {
         res.status(400).json({ message: "'issuerID' required" });
         return
     }
-    if (!reqBody.organization) {
-        res.status(400).json({ message: "'organization' required" });
-        return
-    }
-    if (!reqBody.organization) {
-        res.status(400).json({ message: "'organization' required" });
-        return
-    }
-    if (!reqBody.identityCodes || reqBody.identityCodes.length === 0) {
-        res.status(400).json({ message: "'identityCodes' required. Must have at least 1 identity code" });
-        return
-    }
 
-    return issuer.create(reqBody.enrollID, reqBody.issuerID, reqBody.issuerCode, reqBody.organization, reqBody.identityCodes)
+    return identity.create(providerEnrollmentID, reqBody.identityCode, reqBody.identityTypeCode, reqBody.identityPayload, reqBody.issuerID)
         .then(function (enrolledIssuer) {
-            tracing.create('INFO', 'POST blockchain/issuers', 'Created Issuer');
+            tracing.create('INFO', 'POST blockchain/identity/'+providerEnrollmentID, 'Identity ' + reqBody.identityCode + ' added');
             let result = {};
-            result.message = 'Issuer registration successful';
-            result.issuer = {};
-            result.issuer.enrollID = enrolledIssuer.name;
-            result.issuer.enrollmentSecret = enrolledIssuer.enrollmentSecret;
-            result.issuer.enrollment = {}
-            result.issuer.enrollment.key = enrolledIssuer.enrollment.key;
-            result.issuer.enrollment.cert = enrolledIssuer.enrollment.cert;
-            result.issuer.enrollment.chainKey = enrolledIssuer.enrollment.chainKey;
-            result.issuer.enrollment.queryStateKey = enrolledIssuer.enrollment.queryStateKey;
-
+            result.message = 'Identity added successful';
             res.end(JSON.stringify(result));
         })
         .catch(function (err) {
-            tracing.create('ERROR', 'POST blockchain/issuers', err.stack);
+            tracing.create('ERROR', 'POST blockchain/identity/'+providerEnrollmentID, err.stack);
             res.status(500).json({ 'message': err.stack });
         });
 }

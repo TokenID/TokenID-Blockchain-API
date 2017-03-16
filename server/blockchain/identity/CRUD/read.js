@@ -25,7 +25,7 @@ function getPublicKey(req, res, next) {
             res.status(400);
             let error = {};
             error.error = true;
-            error.message = err,message;
+            error.message = err.message;
             tracing.create('ERROR', 'GET blockchain/identity/' + req.params.providerEnrollmentID + '/publicKey', err);
             res.json(error);
         });

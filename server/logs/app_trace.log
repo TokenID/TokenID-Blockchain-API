@@ -846,3 +846,166 @@ undefined16/03/2017 09:37:01	ENTER	GET blockchain/identity/ECB-223113345/publicK
 	16/03/2017 09:45:17	INFO	Startup	Enrolled registrar
 	16/03/2017 09:45:17	INFO	Startup	Set registrar
 	16/03/2017 09:45:17	ERROR	Startup	OUTPUT: {}
+	16/03/2017 09:56:31	INFO	Startup complete on port	8080
+	16/03/2017 09:56:31	INFO	Startup	Enrolled registrar
+	16/03/2017 09:56:31	INFO	Startup	Set registrar
+	16/03/2017 09:56:31	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 09:57:26	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 09:57:26	INFO	POST blockchain/identity/initialize	Initialized Identity
+16/03/2017 09:57:33	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:58:38	INFO	Startup complete on port	8080
+	16/03/2017 09:58:38	INFO	Startup	Enrolled registrar
+	16/03/2017 09:58:38	INFO	Startup	Set registrar
+	16/03/2017 09:58:38	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 09:59:34	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:00:54	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+16/03/2017 10:01:02	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:01:16	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:03:19	INFO	Startup complete on port	8080
+	16/03/2017 10:03:19	INFO	Startup	Enrolled registrar
+	16/03/2017 10:03:19	INFO	Startup	Set registrar
+	16/03/2017 10:03:19	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 10:03:24	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:03:41	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+16/03/2017 10:04:24	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:04:37	INFO	Chaincode is UP	undefined
+16/03/2017 10:04:37	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:05:09	INFO	Startup complete on port	8080
+	16/03/2017 10:05:09	INFO	Startup	Enrolled registrar
+	16/03/2017 10:05:09	INFO	Startup	Set registrar
+	16/03/2017 10:05:09	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 10:05:49	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:06:02	INFO	Chaincode is UP	undefined
+16/03/2017 10:06:25	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:07:38	INFO	Startup complete on port	8080
+	16/03/2017 10:07:38	INFO	Startup	Enrolled registrar
+	16/03/2017 10:07:38	INFO	Startup	Set registrar
+	16/03/2017 10:07:38	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 10:08:39	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:09:46	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:10:52	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:11:24	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:11:24	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:11:35	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:11:35	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:11:47	INFO	Chaincode is UP	undefined
+	16/03/2017 10:12:17	INFO	Chaincode is UP	undefined
+	16/03/2017 10:12:53	INFO	Chaincode is UP	undefined
+	16/03/2017 10:13:18	INFO	Chaincode is UP	undefined
+	16/03/2017 10:13:48	INFO	Chaincode is UP	undefined
+	16/03/2017 10:14:19	INFO	Chaincode is UP	undefined
+	16/03/2017 10:14:49	INFO	Chaincode is UP	undefined
+	16/03/2017 10:15:20	INFO	Chaincode is UP	undefined
+	16/03/2017 10:15:50	INFO	Chaincode is UP	undefined
+	16/03/2017 10:16:20	INFO	Chaincode is UP	undefined
+	16/03/2017 10:16:51	INFO	Chaincode is UP	undefined
+	16/03/2017 10:17:21	INFO	Chaincode is UP	undefined
+	16/03/2017 10:17:52	INFO	Chaincode is UP	undefined
+	16/03/2017 10:18:22	INFO	Chaincode is UP	undefined
+	16/03/2017 10:18:53	INFO	Chaincode is UP	undefined
+	16/03/2017 10:19:23	INFO	Chaincode is UP	undefined
+	16/03/2017 10:19:58	INFO	Startup complete on port	8080
+	16/03/2017 10:19:58	INFO	Startup	Enrolled registrar
+	16/03/2017 10:19:58	INFO	Startup	Set registrar
+	16/03/2017 10:19:58	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 10:20:57	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:20:57	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:21:04	INFO	Chaincode is UP	undefined
+	16/03/2017 10:21:07	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:21:07	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:21:45	INFO	Chaincode is UP	undefined
+	16/03/2017 10:22:11	INFO	Chaincode is UP	undefined
+	16/03/2017 10:22:46	INFO	Chaincode is UP	undefined
+	16/03/2017 10:23:16	INFO	Chaincode is UP	undefined
+	16/03/2017 10:23:42	INFO	Chaincode is UP	undefined
+	16/03/2017 10:24:17	INFO	Chaincode is UP	undefined
+	16/03/2017 10:24:42	INFO	Chaincode is UP	undefined
+	16/03/2017 10:25:13	INFO	Chaincode is UP	undefined
+	16/03/2017 10:25:43	INFO	Chaincode is UP	undefined
+	16/03/2017 10:26:14	INFO	Chaincode is UP	undefined
+	16/03/2017 10:26:44	INFO	Chaincode is UP	undefined
+	16/03/2017 10:27:15	INFO	Chaincode is UP	undefined
+	16/03/2017 10:27:45	INFO	Chaincode is UP	undefined
+	16/03/2017 10:28:15	INFO	Chaincode is UP	undefined
+	16/03/2017 10:28:46	INFO	Chaincode is UP	undefined
+	16/03/2017 10:29:16	INFO	Chaincode is UP	undefined
+	16/03/2017 10:29:46	INFO	Chaincode is UP	undefined
+	16/03/2017 10:30:17	INFO	Chaincode is UP	undefined
+	16/03/2017 10:30:42	INFO	Startup complete on port	8080
+	16/03/2017 10:30:42	INFO	Startup	Enrolled registrar
+	16/03/2017 10:30:42	INFO	Startup	Set registrar
+	16/03/2017 10:30:42	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 10:31:45	INFO	Chaincode is UP	undefined
+	16/03/2017 10:32:14	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:32:14	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:32:26	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:33:27	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:34:23	INFO	Chaincode is UP	undefined
+	16/03/2017 10:34:41	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:34:41	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:34:54	INFO	Chaincode is UP	undefined
+16/03/2017 10:35:17	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+16/03/2017 10:35:26	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:36:02	INFO	Startup complete on port	8080
+	16/03/2017 10:36:02	INFO	Startup	Enrolled registrar
+	16/03/2017 10:36:02	INFO	Startup	Set registrar
+	16/03/2017 10:36:02	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 10:36:05	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:36:09	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+16/03/2017 10:36:48	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:37:00	INFO	Chaincode is UP	undefined
+16/03/2017 10:37:00	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:37:16	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:37:16	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:39:03	INFO	Startup complete on port	8080
+	16/03/2017 10:39:03	INFO	Startup	Enrolled registrar
+	16/03/2017 10:39:03	INFO	Startup	Set registrar
+	16/03/2017 10:39:03	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 10:39:53	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:40:11	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:40:20	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:41:32	INFO	Chaincode is UP	undefined
+16/03/2017 10:41:37	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:41:47	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:42:03	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:42:58	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:43:58	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:45:04	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:46:00	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:47:01	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:48:01	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:49:03	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:50:02	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:51:03	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:52:04	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:53:05	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:54:07	INFO	Chaincode is UP	undefined
+	16/03/2017 10:54:27	INFO	Startup complete on port	8080
+	16/03/2017 10:54:27	INFO	Startup	Enrolled registrar
+	16/03/2017 10:54:27	INFO	Startup	Set registrar
+	16/03/2017 10:54:27	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 10:55:16	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 10:55:21	INFO	Chaincode is UP	undefined
+	16/03/2017 10:55:26	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:55:26	INFO	POST blockchain/identity/initialize	Initialized Identity
+16/03/2017 10:55:27	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 10:57:58	INFO	Startup complete on port	8080
+	16/03/2017 10:57:58	INFO	Startup	Enrolled registrar
+	16/03/2017 10:57:58	INFO	Startup	Set registrar
+	16/03/2017 10:57:58	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 10:58:06	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
+	16/03/2017 10:58:06	ERROR	POST blockchain/identity/initialize	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 10:58:52	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:58:52	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 10:58:59	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 10:59:40	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 10:59:40	INFO	POST blockchain/identity/initialize	Initialized Identity
+undefined	16/03/2017 11:00:41	INFO	Chaincode is UP	undefined
+16/03/2017 11:00:55	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 11:01:01	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 11:01:12	INFO	Chaincode is UP	undefined
+16/03/2017 11:01:26	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 11:01:31	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+16/03/2017 11:01:35	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 11:01:38	INFO	Chaincode is UP	undefined
+16/03/2017 11:01:40	EXIT	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}

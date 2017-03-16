@@ -2,13 +2,13 @@
 
 const Util = require('./util.js');
 const hfc = require('hfc');
-const config = require(__dirname + '/../../configurations/configuration.js')
+const configFile = require(__dirname + '/../../configurations/configuration.js')
 
 class Vehicle {
 
     constructor(usersToSecurityContext) {
         this.usersToSecurityContext = usersToSecurityContext;
-        this.chain = hfc.getChain(config.chainName); 
+        this.chain = hfc.getChain(configFile.config.chainName); 
     }
 
     create(userId) {

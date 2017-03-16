@@ -1,17 +1,12 @@
 'use strict';
-/* global process */
-/* global __dirname */
-/*eslint-env node*/
 
 /*******************************************************************************
- * Copyright (c) 2015 IBM Corp.
+ * Copyright (c) 2017 TokenID .
  *
  * All rights reserved.
  *
  *******************************************************************************/
-/////////////////////////////////////////
-///////////// Setup Node.js /////////////
-/////////////////////////////////////////
+
 let express = require('express');
 let session = require('express-session');
 let cookieParser = require('cookie-parser');
@@ -29,11 +24,10 @@ let configFile = require(__dirname + '/server/configurations/configuration.js');
 //Our own modules
 let blocks = require(__dirname + '/server/blockchain/blocks/blocks.js');
 let block = require(__dirname + '/server/blockchain/blocks/block/block.js');
-let participants = require(__dirname + '/server/blockchain/participants/participants.js');
-let identity = require(__dirname + '/server/admin/identity/identity.js');
+let identity = require(__dirname + '/server/blockchain/identity/identity.js');
 let vehicles = require(__dirname + '/server/blockchain/assets/vehicles/vehicles.js');
 let vehicle = require(__dirname + '/server/blockchain/assets/vehicles/vehicle/vehicle.js');
-
+let issuers = require(__dirname + '/server/blockchain/issuers/issuers.js');
 let chaincode = require(__dirname + '/server/blockchain/chaincode/chaincode.js');
 let transactions = require(__dirname + '/server/blockchain/transactions/transactions.js');
 let startup = require(__dirname + '/server/configurations/startup/startup.js');
@@ -64,23 +58,27 @@ app.use('/node_modules', express.static(__dirname + '/node_modules'));
 //===============================================================================================
 
 //-----------------------------------------------------------------------------------------------
-//    Admin - Identity
+//    Blockchain - Identity
 //-----------------------------------------------------------------------------------------------
-app.post('/admin/identity', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
+app.post('/blockchain/identity', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
 {
-    identity.create(req, res, usersToSecurityContext);
+    identity.create(req, res,next);
 });
 
-//-----------------------------------------------------------------------------------------------
-//    Admin - Demo
-//-----------------------------------------------------------------------------------------------
-
-app.post('/admin/demo', function (req, res, next) {
-    demo.create(req, res, next, usersToSecurityContext);
+app.post('/blockchain/identity/initialize', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
+{
+    identity.initialize(req, res, next);
 });
 
-app.get('/admin/demo', function (req, res, next) {
-    demo.read(req, res, next, usersToSecurityContext);
+app.get('/blockchain/identity/:providerEnrollmentID', function (req, res, next) {
+    identity.getIdentities(req, res, next);
+});
+app.get('/blockchain/identity/:providerEnrollmentID/publicKey', function (req, res, next) {
+    identity.getPublicKey(req, res, next);
+});
+
+app.get('/blockchain/identity/:providerEnrollmentID/:identityCode', function (req, res, next) {
+    identity.getIdentity(req, res, next);
 });
 
 //-----------------------------------------------------------------------------------------------
@@ -104,12 +102,12 @@ app.get('/blockchain/blocks/:blockNum(\\d+)', function (req, res, next) {
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Issuers
 //-----------------------------------------------------------------------------------------------
-app.post('/blockchain/enrollIssuer', function (req, res, next) {
-    vehicles.create(req, res, next, usersToSecurityContext);
+app.post('/blockchain/issuers', function (req, res, next) {
+    issuers.create(req, res, next);
 });
 
-app.get('/blockchain/assets/vehicles', function (req, res, next) {
-    vehicles.read(req, res, next, usersToSecurityContext);
+app.get('/blockchain/issuers', function (req, res, next) {
+    issuers.read(req, res, next);
 });
 
 //-----------------------------------------------------------------------------------------------
@@ -199,41 +197,6 @@ app.get('/blockchain/assets/vehicles/:v5cID/scrap', function (req, res, next) {
     vehicle.scrapped.read(req, res, next, usersToSecurityContext);
 });
 
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Participants
-//-----------------------------------------------------------------------------------------------
-app.post('/blockchain/participants', function (req, res, next) {
-    participants.create(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants', function (req, res, next) {
-    participants.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/regulators', function (req, res, next) {
-    participants.regulators.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/manufacturers', function (req, res, next) {
-    participants.manufacturers.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/dealerships', function (req, res, next) {
-    participants.dealerships.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/lease_companies', function (req, res, next) {
-    participants.lease_companies.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/leasees', function (req, res, next) {
-    participants.leasees.read(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/participants/scrap_merchants', function (req, res, next) {
-    participants.scrap_merchants.read(req, res, next, usersToSecurityContext);
-});
-
 
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Transactions
@@ -303,7 +266,7 @@ if (process.env.VCAP_SERVICES) {
 }
 
 // Setup HFC
-let chain = hfc.newChain('localChain');
+let chain = hfc.newChain(configFile.config.chainName);
 //This is the location of the key store HFC will use. If running locally, this directory must exist on your machine
 chain.setKeyValStore(hfc.newFileKeyValStore(configFile.config.keyStoreLocation));
 
@@ -389,7 +352,7 @@ let chaincodeID;
 
 return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAdminPassword)
     .then(function (r) {
-        chain.setRegistrar(registrar);
+        chain.setRegistrar(r);
         tracing.create('INFO', 'Startup', 'Set registrar');
         return startup.loadEnrolledMember(chain,configFile.config.enrollment.name)
 
@@ -416,18 +379,15 @@ return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAd
     })
     .then(function (itExistsAndUp) {
         if (itExistsAndUp) {
-            tracing.create('', 'Chaincode is UP')
+            tracing.create('INFO', 'Chaincode is UP')
             // Query the chaincode every 3 minutes
             setInterval(function () {
                 startup.pingChaincode(chain,  configFile.config.securityContext)
                     .then((success) => {
                         if (!success) {
-                            setSetupError();
+                            tracing.create('WARN', 'Could not reach chaincode');
                         } else {
-                            demoStatus.status = 'SUCCESS';
-                            demoStatus.success = true;
-                            demoStatus.error = null;
-                            demoStatus.detailedError = null;
+                             tracing.create('INFO', 'Chaincode is UP')    
                         }
                     });
             }, 0.5 * 60000);
@@ -435,7 +395,6 @@ return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAd
 
     })
     .catch(function (err) {
-        setSetupError(err);
         console.log(err);
         tracing.create('ERROR', 'Startup', err);
     });

@@ -231,4 +231,618 @@
 	15/03/2017 12:24:18	INFO	Startup	Enrolled registrar
 	15/03/2017 12:24:18	INFO	Startup	Set registrar
 	15/03/2017 12:24:22	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
-undefined
+undefined	15/03/2017 13:45:36	INFO	Startup complete on port	8080
+	15/03/2017 13:45:36	INFO	Startup	Enrolled registrar
+	15/03/2017 13:45:36	INFO	Startup	Set registrar
+	15/03/2017 13:45:36	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 13:49:43	INFO	Startup complete on port	8080
+	15/03/2017 13:49:43	INFO	Startup	Enrolled registrar
+	15/03/2017 13:49:43	INFO	Startup	Set registrar
+	15/03/2017 13:49:43	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined	15/03/2017 13:54:34	INFO	Startup complete on port	8080
+	15/03/2017 13:54:34	INFO	Startup	Enrolled registrar
+	15/03/2017 13:54:34	INFO	Startup	Set registrar
+	15/03/2017 13:54:34	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined	15/03/2017 13:56:38	INFO	Startup complete on port	8080
+	15/03/2017 13:56:38	INFO	Startup	Enrolled registrar
+	15/03/2017 13:56:38	INFO	Startup	Set registrar
+	15/03/2017 13:56:38	ERROR	Startup	OUTPUT: {}
+	15/03/2017 13:58:51	INFO	Startup complete on port	8080
+	15/03/2017 13:58:51	INFO	Startup	Enrolled registrar
+	15/03/2017 13:58:51	INFO	Startup	Set registrar
+	15/03/2017 13:58:51	ERROR	Startup	OUTPUT: {}
+	15/03/2017 13:59:43	INFO	Startup complete on port	8080
+	15/03/2017 13:59:43	INFO	Startup	Enrolled registrar
+	15/03/2017 13:59:43	INFO	Startup	Set registrar
+	15/03/2017 13:59:43	ERROR	Startup	OUTPUT: {}
+	15/03/2017 14:01:07	INFO	Startup complete on port	8080
+	15/03/2017 14:01:07	INFO	Startup	Enrolled registrar
+	15/03/2017 14:01:07	INFO	Startup	Set registrar
+	15/03/2017 14:01:13	ERROR	Startup	OUTPUT: {}
+	15/03/2017 14:01:39	INFO	Startup complete on port	8080
+	15/03/2017 14:01:39	INFO	Startup	Enrolled registrar
+	15/03/2017 14:01:39	INFO	Startup	Set registrar
+	15/03/2017 14:01:40	ERROR	Startup	OUTPUT: {}
+	15/03/2017 14:02:06	INFO	Startup complete on port	8080
+	15/03/2017 14:02:06	INFO	Startup	Enrolled registrar
+	15/03/2017 14:02:06	INFO	Startup	Set registrar
+	15/03/2017 14:02:06	ERROR	Startup	OUTPUT: {}
+	15/03/2017 14:02:30	INFO	Startup complete on port	8080
+	15/03/2017 14:02:30	INFO	Startup	Enrolled registrar
+	15/03/2017 14:02:31	INFO	Startup	Set registrar
+	15/03/2017 14:03:20	ERROR	Startup	OUTPUT: {}
+	15/03/2017 14:03:59	INFO	Startup complete on port	8080
+	15/03/2017 14:03:59	INFO	Startup	Enrolled registrar
+	15/03/2017 14:04:02	INFO	Startup	Set registrar
+	15/03/2017 14:04:28	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined	15/03/2017 14:10:12	INFO	Startup complete on port	8080
+	15/03/2017 14:10:12	INFO	Startup	Enrolled registrar
+	15/03/2017 14:10:19	INFO	Startup	Set registrar
+	15/03/2017 14:10:19	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined	15/03/2017 14:12:47	INFO	Startup complete on port	8080
+	15/03/2017 14:12:47	INFO	Startup	Enrolled registrar
+	15/03/2017 14:12:47	INFO	Startup	Set registrar
+	15/03/2017 14:12:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+undefined	15/03/2017 14:14:28	INFO	Startup complete on port	8080
+	15/03/2017 14:14:28	INFO	Startup	Enrolled registrar
+	15/03/2017 14:14:28	INFO	Startup	Set registrar
+	15/03/2017 14:14:28	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 14:15:03	INFO	Startup complete on port	8080
+	15/03/2017 14:15:03	INFO	Startup	Enrolled registrar
+	15/03/2017 14:15:03	INFO	Startup	Set registrar
+	15/03/2017 14:15:03	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 14:16:28	INFO	Chaincode is UP	undefined
+	15/03/2017 14:20:00	INFO	Startup complete on port	8080
+	15/03/2017 14:20:00	INFO	Startup	Enrolled registrar
+	15/03/2017 14:20:00	INFO	Startup	Set registrar
+	15/03/2017 14:20:00	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 14:21:06	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:22:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:23:25	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:24:23	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:25:16	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:26:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:27:20	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:28:20	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:29:22	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:30:22	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:31:21	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:32:23	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:33:27	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:34:24	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:35:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:36:26	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:37:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:38:28	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 14:39:28	INFO	Chaincode is UP	undefined
+	15/03/2017 14:39:55	INFO	Chaincode is UP	undefined
+	15/03/2017 14:40:25	INFO	Chaincode is UP	undefined
+	15/03/2017 14:40:56	INFO	Chaincode is UP	undefined
+	15/03/2017 14:41:25	INFO	Chaincode is UP	undefined
+	15/03/2017 14:41:56	INFO	Chaincode is UP	undefined
+	15/03/2017 14:42:26	INFO	Chaincode is UP	undefined
+	15/03/2017 14:42:56	INFO	Chaincode is UP	undefined
+	15/03/2017 14:43:26	INFO	Chaincode is UP	undefined
+	15/03/2017 14:43:57	INFO	Chaincode is UP	undefined
+	15/03/2017 14:44:27	INFO	Chaincode is UP	undefined
+	15/03/2017 16:06:41	INFO	Startup complete on port	8080
+	15/03/2017 16:06:41	INFO	Startup	Enrolled registrar
+	15/03/2017 16:06:41	INFO	Startup	Set registrar
+	15/03/2017 16:06:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:07:53	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:09:00	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:10:07	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:11:07	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:12:05	INFO	Chaincode is UP	undefined
+	15/03/2017 16:14:12	INFO	Startup complete on port	8080
+	15/03/2017 16:14:12	INFO	Startup	Enrolled registrar
+	15/03/2017 16:14:12	INFO	Startup	Set registrar
+	15/03/2017 16:14:12	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:15:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:16:37	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:17:47	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:18:46	INFO	Chaincode is UP	undefined
+	15/03/2017 16:19:13	INFO	Chaincode is UP	undefined
+	15/03/2017 16:19:38	INFO	Chaincode is UP	undefined
+	15/03/2017 16:19:47	INFO	Startup complete on port	8080
+	15/03/2017 16:19:47	INFO	Startup	Enrolled registrar
+	15/03/2017 16:19:47	INFO	Startup	Set registrar
+	15/03/2017 16:19:47	ERROR	Startup	OUTPUT: {}
+	15/03/2017 16:20:06	INFO	Startup complete on port	8080
+	15/03/2017 16:20:06	INFO	Startup	Enrolled registrar
+	15/03/2017 16:20:06	INFO	Startup	Set registrar
+	15/03/2017 16:20:06	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:21:16	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:22:24	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:23:30	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:24:31	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:25:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:26:04	INFO	Startup complete on port	8080
+	15/03/2017 16:26:04	INFO	Startup	Enrolled registrar
+	15/03/2017 16:26:04	INFO	Startup	Set registrar
+	15/03/2017 16:26:04	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:26:29	ERROR	POST blockchain/issuer	OUTPUT: "ReferenceError: chain is not defined\n    at __dirname.create.identityCodes (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:27:20)\n    at Issuer.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:26:16)\n    at Object.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/issuers/CRUD/create.js:43:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/app.js:103:12\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:335:12)"
+	15/03/2017 16:27:26	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:28:48	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:30:35	ERROR	POST blockchain/issuer	OUTPUT: "ReferenceError: chain is not defined\n    at __dirname.create.identityCodes (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:27:20)\n    at Issuer.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:26:16)\n    at Object.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/issuers/CRUD/create.js:43:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/app.js:103:12\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:335:12)"
+	15/03/2017 16:30:40	INFO	Chaincode is UP	undefined
+	15/03/2017 16:30:47	INFO	Chaincode is UP	undefined
+	15/03/2017 16:31:18	INFO	Chaincode is UP	undefined
+	15/03/2017 16:31:49	INFO	Chaincode is UP	undefined
+	15/03/2017 16:32:15	INFO	Chaincode is UP	undefined
+	15/03/2017 16:32:31	INFO	Startup complete on port	8080
+	15/03/2017 16:32:31	INFO	Startup	Enrolled registrar
+	15/03/2017 16:32:31	INFO	Startup	Set registrar
+	15/03/2017 16:32:31	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:34:16	ERROR	POST blockchain/issuer	OUTPUT: "ReferenceError: chain is not defined\n    at __dirname.create.identityCodes (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:26:20)\n    at Issuer.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:25:16)\n    at Object.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/issuers/CRUD/create.js:43:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/app.js:103:12\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:335:12)"
+	15/03/2017 16:35:20	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:36:31	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:37:36	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:38:42	INFO	Startup complete on port	8080
+	15/03/2017 16:38:42	INFO	Startup	Enrolled registrar
+	15/03/2017 16:38:42	INFO	Startup	Set registrar
+	15/03/2017 16:38:42	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:39:00	ERROR	POST blockchain/issuer	OUTPUT: "ReferenceError: chain is not defined\n    at __dirname.create.identityCodes (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:26:20)\n    at Issuer.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/issuer.js:25:16)\n    at Object.create (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/issuers/CRUD/create.js:43:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/app.js:103:12\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/express/lib/router/index.js:335:12)"
+	15/03/2017 16:39:45	INFO	Startup complete on port	8080
+	15/03/2017 16:39:45	INFO	Startup	Enrolled registrar
+	15/03/2017 16:39:45	INFO	Startup	Set registrar
+	15/03/2017 16:39:45	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:41:32	INFO	Startup complete on port	8080
+	15/03/2017 16:41:32	INFO	Startup	Enrolled registrar
+	15/03/2017 16:41:32	INFO	Startup	Set registrar
+	15/03/2017 16:41:32	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:44:31	INFO	Startup complete on port	8080
+	15/03/2017 16:44:31	INFO	Startup	Enrolled registrar
+	15/03/2017 16:44:49	INFO	Startup	Set registrar
+	15/03/2017 16:44:49	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:46:31	INFO	Startup complete on port	8080
+	15/03/2017 16:46:59	INFO	Startup complete on port	8080
+	15/03/2017 16:46:59	INFO	Startup	Enrolled registrar
+	15/03/2017 16:47:07	INFO	Startup	Set registrar
+	15/03/2017 16:47:07	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:49:27	INFO	Startup complete on port	8080
+	15/03/2017 16:49:27	INFO	Startup	Enrolled registrar
+	15/03/2017 16:49:27	INFO	Startup	Set registrar
+	15/03/2017 16:49:27	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:51:13	INFO	Issuer	Registrar enroll worked with user cbn_user
+	15/03/2017 16:51:18	INFO	Issuer	Issuer registered on BlockChain CBN-233117584
+	15/03/2017 16:51:18	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 16:51:18	ERROR	POST blockchain/issuer	OUTPUT: "TypeError: Converting circular structure to JSON\n    at Object.stringify (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/blockchain/issuers/CRUD/create.js:49:22"
+	15/03/2017 16:51:38	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:52:51	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 16:53:47	INFO	Chaincode is UP	undefined
+	15/03/2017 16:54:22	INFO	Chaincode is UP	undefined
+	15/03/2017 16:54:51	INFO	Issuer	Registrar enroll worked with user cbn_user4
+	15/03/2017 16:54:51	INFO	Chaincode is UP	undefined
+	15/03/2017 16:57:14	INFO	Startup complete on port	8080
+	15/03/2017 16:57:14	INFO	Startup	Enrolled registrar
+	15/03/2017 16:57:14	INFO	Startup	Set registrar
+	15/03/2017 16:57:14	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 16:58:21	INFO	Chaincode is UP	undefined
+	15/03/2017 16:58:26	INFO	Issuer	Registrar enroll worked with user cbn_user3
+	15/03/2017 16:58:31	INFO	Issuer	Issuer registered on BlockChain CBN-234117884
+	15/03/2017 16:58:31	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 16:59:08	INFO	Chaincode is UP	undefined
+	15/03/2017 16:59:40	INFO	Chaincode is UP	undefined
+	15/03/2017 17:00:07	INFO	Chaincode is UP	undefined
+	15/03/2017 17:00:41	INFO	Chaincode is UP	undefined
+	15/03/2017 17:01:10	INFO	Chaincode is UP	undefined
+	15/03/2017 17:01:36	INFO	Chaincode is UP	undefined
+	15/03/2017 17:02:12	INFO	Chaincode is UP	undefined
+	15/03/2017 17:02:36	INFO	Chaincode is UP	undefined
+	15/03/2017 17:03:02	INFO	Startup complete on port	8080
+	15/03/2017 17:03:02	INFO	Startup	Enrolled registrar
+	15/03/2017 17:03:02	INFO	Startup	Set registrar
+	15/03/2017 17:03:02	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 17:04:32	INFO	Chaincode is UP	undefined
+	15/03/2017 17:04:43	INFO	Issuer	Registrar enroll worked with user cbn_user5
+	15/03/2017 17:04:48	INFO	Issuer	Issuer registered on BlockChain CBN-23411788455
+	15/03/2017 17:04:48	INFO	POST blockchain/issuer	Created Issuer
+undefined	15/03/2017 17:05:44	INFO	Chaincode is UP	undefined
+	15/03/2017 17:06:08	INFO	Issuer	Registrar enroll worked with user cbn_user5
+	15/03/2017 17:06:14	INFO	Issuer	Issuer registered on BlockChain CBN-23411788455
+	15/03/2017 17:06:14	INFO	POST blockchain/issuer	Created Issuer
+undefined	15/03/2017 17:06:25	INFO	Issuer	Registrar enroll worked with user cbn_user5
+	15/03/2017 17:06:31	INFO	Issuer	Issuer registered on BlockChain CBN-23411788455
+	15/03/2017 17:06:31	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:06:37	INFO	Issuer	Registrar enroll worked with user cbn_user5
+	15/03/2017 17:06:42	INFO	Issuer	Issuer registered on BlockChain CBN-23411788455
+	15/03/2017 17:06:42	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:06:45	INFO	Chaincode is UP	undefined
+	15/03/2017 17:07:11	INFO	Chaincode is UP	undefined
+	15/03/2017 17:07:42	INFO	Chaincode is UP	undefined
+	15/03/2017 17:08:12	INFO	Chaincode is UP	undefined
+	15/03/2017 17:08:44	INFO	Chaincode is UP	undefined
+	15/03/2017 17:09:14	INFO	Chaincode is UP	undefined
+	15/03/2017 17:09:45	INFO	Chaincode is UP	undefined
+	15/03/2017 17:10:16	INFO	Chaincode is UP	undefined
+	15/03/2017 17:10:51	INFO	Chaincode is UP	undefined
+	15/03/2017 17:11:17	INFO	Chaincode is UP	undefined
+	15/03/2017 17:11:49	INFO	Chaincode is UP	undefined
+	15/03/2017 17:12:36	INFO	Chaincode is UP	undefined
+	15/03/2017 17:12:50	INFO	Chaincode is UP	undefined
+	15/03/2017 17:13:07	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:13:59	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:13:59	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:14:05	INFO	Chaincode is UP	undefined
+	15/03/2017 17:14:14	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:14:29	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:14:29	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:14:36	INFO	Chaincode is UP	undefined
+	15/03/2017 17:15:09	INFO	Chaincode is UP	undefined
+	15/03/2017 17:15:39	INFO	Chaincode is UP	undefined
+	15/03/2017 17:16:09	INFO	Chaincode is UP	undefined
+	15/03/2017 17:16:39	INFO	Chaincode is UP	undefined
+	15/03/2017 17:17:10	INFO	Chaincode is UP	undefined
+	15/03/2017 17:17:41	INFO	Chaincode is UP	undefined
+	15/03/2017 17:18:11	INFO	Chaincode is UP	undefined
+	15/03/2017 17:18:42	INFO	Chaincode is UP	undefined
+	15/03/2017 17:19:13	INFO	Chaincode is UP	undefined
+	15/03/2017 17:19:34	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:23:45	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:23:45	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:23:56	INFO	Chaincode is UP	undefined
+	15/03/2017 17:23:57	INFO	Chaincode is UP	undefined
+	15/03/2017 17:24:04	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:24:10	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:24:10	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:24:25	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:24:25	INFO	Chaincode is UP	undefined
+	15/03/2017 17:24:50	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:24:50	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:25:01	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:26:00	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:27:02	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:28:03	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:29:05	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:30:05	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:30:52	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:31:11	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:31:11	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:31:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:32:09	INFO	Chaincode is UP	undefined
+	15/03/2017 17:49:37	INFO	Startup complete on port	8080
+	15/03/2017 17:49:37	INFO	Startup	Enrolled registrar
+	15/03/2017 17:49:37	INFO	Startup	Set registrar
+	15/03/2017 17:49:37	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 17:50:37	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 17:50:44	INFO	Chaincode is UP	undefined
+	15/03/2017 17:50:52	INFO	Issuer	Issuer registered on BlockChain CBN-23411787755
+	15/03/2017 17:50:52	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 17:51:22	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:52:23	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:53:27	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 17:54:26	INFO	Chaincode is UP	undefined
+	15/03/2017 17:54:58	INFO	Chaincode is UP	undefined
+	15/03/2017 17:55:25	INFO	Chaincode is UP	undefined
+	15/03/2017 17:55:54	INFO	Chaincode is UP	undefined
+	15/03/2017 17:56:24	INFO	Chaincode is UP	undefined
+	15/03/2017 17:56:55	INFO	Chaincode is UP	undefined
+	15/03/2017 17:57:26	INFO	Chaincode is UP	undefined
+	15/03/2017 17:57:56	INFO	Chaincode is UP	undefined
+	15/03/2017 17:58:26	INFO	Chaincode is UP	undefined
+	15/03/2017 17:58:57	INFO	Chaincode is UP	undefined
+	15/03/2017 17:59:27	INFO	Chaincode is UP	undefined
+	15/03/2017 17:59:58	INFO	Chaincode is UP	undefined
+	15/03/2017 18:00:27	INFO	Chaincode is UP	undefined
+	15/03/2017 18:00:59	INFO	Chaincode is UP	undefined
+	15/03/2017 18:01:29	INFO	Chaincode is UP	undefined
+	15/03/2017 18:01:59	INFO	Chaincode is UP	undefined
+	15/03/2017 18:02:30	INFO	Chaincode is UP	undefined
+	15/03/2017 18:03:00	INFO	Chaincode is UP	undefined
+	15/03/2017 18:03:31	INFO	Chaincode is UP	undefined
+	15/03/2017 18:04:00	INFO	Chaincode is UP	undefined
+	15/03/2017 18:04:32	INFO	Chaincode is UP	undefined
+	15/03/2017 18:05:09	INFO	Startup complete on port	8080
+	15/03/2017 18:05:09	INFO	Startup	Enrolled registrar
+	15/03/2017 18:05:09	INFO	Startup	Set registrar
+	15/03/2017 18:05:09	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:06:14	INFO	Startup complete on port	8080
+	15/03/2017 18:06:14	INFO	Startup	Enrolled registrar
+	15/03/2017 18:06:14	INFO	Startup	Set registrar
+	15/03/2017 18:06:14	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:06:19	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 18:06:44	ERROR	Issuer	OUTPUT: "Failed to register issuer on BlockChain CBN-23411787755"
+	15/03/2017 18:06:44	ERROR	POST blockchain/issuer	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	15/03/2017 18:07:45	INFO	Startup complete on port	8080
+	15/03/2017 18:07:45	INFO	Startup	Enrolled registrar
+	15/03/2017 18:07:45	INFO	Startup	Set registrar
+	15/03/2017 18:07:45	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:08:55	INFO	Startup complete on port	8080
+	15/03/2017 18:08:55	INFO	Startup	Enrolled registrar
+	15/03/2017 18:08:55	INFO	Startup	Set registrar
+	15/03/2017 18:08:55	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:09:00	INFO	Issuer	Registrar enroll worked with user cbn_user7
+	15/03/2017 18:10:15	ERROR	Issuer	OUTPUT: "Failed to register issuer on BlockChain CBN-23411787755"
+	15/03/2017 18:10:15	ERROR	POST blockchain/issuer	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	15/03/2017 18:11:19	INFO	Chaincode is UP	undefined
+	15/03/2017 18:11:28	INFO	Issuer	Registrar enroll worked with user cbn_user79
+	15/03/2017 18:11:39	INFO	Issuer	Issuer registered on BlockChain CBN-23411766755
+	15/03/2017 18:11:39	INFO	POST blockchain/issuer	Created Issuer
+undefined	15/03/2017 18:12:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:13:29	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:14:35	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:15:36	INFO	Chaincode is UP	undefined
+	15/03/2017 18:15:50	INFO	Issuer	Registrar enroll worked with user cbn_user449
+	15/03/2017 18:16:00	INFO	Issuer	Issuer registered on BlockChain CBN-23411755555
+	15/03/2017 18:16:00	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:16:04	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:17:03	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:18:01	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:19:03	INFO	Chaincode is UP	undefined
+	15/03/2017 18:19:31	INFO	Chaincode is UP	undefined
+undefinedundefined	15/03/2017 18:21:04	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:22:07	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:23:09	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:24:10	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:24:43	INFO	Startup complete on port	8080
+	15/03/2017 18:24:43	INFO	Startup	Enrolled registrar
+	15/03/2017 18:24:43	INFO	Startup	Set registrar
+	15/03/2017 18:24:43	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:25:58	INFO	Chaincode is UP	undefined
+	15/03/2017 18:26:09	INFO	Issuer	Registrar enroll worked with user cbn_user5549
+	15/03/2017 18:26:14	INFO	Issuer	Issuer registered on BlockChain CBN-23411755555555
+	15/03/2017 18:26:14	INFO	POST blockchain/issuer	Created Issuer
+undefined	15/03/2017 18:26:55	INFO	Issuer	Registrar enroll worked with user cbn_user5549
+	15/03/2017 18:27:00	INFO	Issuer	Issuer registered on BlockChain CBN-23411755555555
+	15/03/2017 18:27:00	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:27:10	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:28:14	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:29:16	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:30:11	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:31:11	INFO	Chaincode is UP	undefined
+undefinedundefined	15/03/2017 18:32:41	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:33:42	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:34:43	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:35:45	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:36:46	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:37:45	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 18:38:46	INFO	Chaincode is UP	undefined
+	15/03/2017 18:39:14	INFO	Chaincode is UP	undefined
+	15/03/2017 18:39:46	INFO	Chaincode is UP	undefined
+	15/03/2017 18:40:16	INFO	Chaincode is UP	undefined
+	15/03/2017 18:40:46	INFO	Chaincode is UP	undefined
+	15/03/2017 18:41:18	INFO	Chaincode is UP	undefined
+	15/03/2017 18:41:47	INFO	Chaincode is UP	undefined
+	15/03/2017 18:42:18	INFO	Chaincode is UP	undefined
+	15/03/2017 18:42:48	INFO	Chaincode is UP	undefined
+	15/03/2017 18:43:20	INFO	Chaincode is UP	undefined
+	15/03/2017 18:43:49	INFO	Chaincode is UP	undefined
+	15/03/2017 18:44:12	INFO	Startup complete on port	8080
+	15/03/2017 18:44:12	INFO	Startup	Enrolled registrar
+	15/03/2017 18:44:12	INFO	Startup	Set registrar
+	15/03/2017 18:44:12	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 18:45:27	INFO	Chaincode is UP	undefined
+	15/03/2017 18:45:53	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 18:45:58	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 18:45:58	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:46:10	INFO	Chaincode is UP	undefined
+	15/03/2017 18:46:36	INFO	Chaincode is UP	undefined
+	15/03/2017 18:47:09	INFO	Chaincode is UP	undefined
+	15/03/2017 18:47:29	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 18:47:35	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 18:47:35	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:47:35	INFO	Chaincode is UP	undefined
+	15/03/2017 18:48:11	INFO	Chaincode is UP	undefined
+	15/03/2017 18:48:18	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 18:48:23	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 18:48:23	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:48:35	INFO	Chaincode is UP	undefined
+	15/03/2017 18:49:07	INFO	Chaincode is UP	undefined
+	15/03/2017 18:49:37	INFO	Chaincode is UP	undefined
+	15/03/2017 18:50:06	INFO	Chaincode is UP	undefined
+	15/03/2017 18:50:38	INFO	Chaincode is UP	undefined
+	15/03/2017 18:51:03	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 18:51:08	INFO	Chaincode is UP	undefined
+	15/03/2017 18:51:08	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 18:51:08	INFO	POST blockchain/issuer	Created Issuer
+	15/03/2017 18:51:38	INFO	Chaincode is UP	undefined
+	15/03/2017 18:52:09	INFO	Chaincode is UP	undefined
+	15/03/2017 18:52:40	INFO	Chaincode is UP	undefined
+	15/03/2017 18:53:11	INFO	Chaincode is UP	undefined
+	15/03/2017 18:53:41	INFO	Chaincode is UP	undefined
+	15/03/2017 19:36:08	INFO	Startup complete on port	8080
+	15/03/2017 19:36:08	INFO	Startup	Enrolled registrar
+	15/03/2017 19:36:08	INFO	Startup	Set registrar
+	15/03/2017 19:36:08	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+15/03/2017 19:37:03	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 19:37:21	INFO	Chaincode is UP	undefined
+15/03/2017 19:37:25	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 19:37:59	INFO	Chaincode is UP	undefined
+	15/03/2017 19:38:33	INFO	Chaincode is UP	undefined
+	15/03/2017 19:39:03	INFO	Chaincode is UP	undefined
+15/03/2017 19:39:03	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 19:39:11	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 19:39:28	INFO	Chaincode is UP	undefined
+15/03/2017 19:39:50	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 19:40:41	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 19:40:43	INFO	Chaincode is UP	undefined
+	15/03/2017 19:40:48	INFO	Chaincode is UP	undefined
+	15/03/2017 19:41:19	INFO	Chaincode is UP	undefined
+	15/03/2017 19:41:48	INFO	Chaincode is UP	undefined
+	15/03/2017 19:42:20	INFO	Chaincode is UP	undefined
+15/03/2017 19:42:23	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 19:43:05	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 19:43:17	INFO	Chaincode is UP	undefined
+15/03/2017 19:43:21	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 19:44:16	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 19:44:32	INFO	Chaincode is UP	undefined
+	15/03/2017 19:45:23	INFO	Chaincode is UP	undefined
+	15/03/2017 19:45:31	INFO	Chaincode is UP	undefined
+	15/03/2017 19:46:00	INFO	Chaincode is UP	undefined
+	15/03/2017 19:46:32	INFO	Chaincode is UP	undefined
+	15/03/2017 19:47:02	INFO	Chaincode is UP	undefined
+	15/03/2017 19:47:32	INFO	Chaincode is UP	undefined
+	15/03/2017 19:48:02	INFO	Chaincode is UP	undefined
+	15/03/2017 19:48:33	INFO	Chaincode is UP	undefined
+	15/03/2017 19:49:02	INFO	Chaincode is UP	undefined
+	15/03/2017 19:49:33	INFO	Chaincode is UP	undefined
+	15/03/2017 19:50:03	INFO	Chaincode is UP	undefined
+	15/03/2017 19:50:35	INFO	Chaincode is UP	undefined
+	15/03/2017 19:51:05	INFO	Chaincode is UP	undefined
+	15/03/2017 19:51:34	INFO	Chaincode is UP	undefined
+	15/03/2017 19:52:06	INFO	Startup complete on port	8080
+	15/03/2017 19:52:06	INFO	Startup	Enrolled registrar
+	15/03/2017 19:52:06	INFO	Startup	Set registrar
+	15/03/2017 19:52:06	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 19:52:13	INFO	Startup complete on port	8080
+	15/03/2017 19:52:13	INFO	Startup	Enrolled registrar
+	15/03/2017 19:52:13	INFO	Startup	Set registrar
+	15/03/2017 19:52:13	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 19:53:35	INFO	Startup complete on port	8080
+	15/03/2017 19:53:35	INFO	Startup	Enrolled registrar
+	15/03/2017 19:53:35	INFO	Startup	Set registrar
+	15/03/2017 19:53:35	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+15/03/2017 19:53:41	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 19:54:14	ERROR	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 19:54:50	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 19:55:06	INFO	Chaincode is UP	undefined
+15/03/2017 19:55:07	EXIT	GET blockchain/issuers	OUTPUT: {}
+undefined	15/03/2017 19:56:21	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 19:57:22	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 19:58:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 19:59:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 20:00:18	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 20:01:21	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 20:02:21	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 20:03:21	INFO	Chaincode is UP	undefined
+undefined	15/03/2017 20:04:02	INFO	Startup complete on port	8080
+	15/03/2017 20:04:02	INFO	Startup	Enrolled registrar
+	15/03/2017 20:04:02	INFO	Startup	Set registrar
+	15/03/2017 20:04:02	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+15/03/2017 20:04:07	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:04:10	ERROR	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:04:14	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:04:18	ERROR	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:04:56	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:05:10	INFO	Chaincode is UP	undefined
+15/03/2017 20:05:10	EXIT	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:05:32	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 20:05:45	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 20:05:52	INFO	Chaincode is UP	undefined
+	15/03/2017 20:06:22	INFO	Chaincode is UP	undefined
+	15/03/2017 20:06:48	INFO	Chaincode is UP	undefined
+	15/03/2017 20:07:27	INFO	Chaincode is UP	undefined
+	15/03/2017 20:07:49	INFO	Chaincode is UP	undefined
+	15/03/2017 20:08:19	INFO	Chaincode is UP	undefined
+	15/03/2017 20:08:50	INFO	Chaincode is UP	undefined
+	15/03/2017 20:09:19	INFO	Chaincode is UP	undefined
+	15/03/2017 20:09:49	INFO	Chaincode is UP	undefined
+	15/03/2017 20:10:20	INFO	Chaincode is UP	undefined
+	15/03/2017 20:10:40	INFO	Startup complete on port	8080
+	15/03/2017 20:10:40	INFO	Startup	Enrolled registrar
+	15/03/2017 20:10:40	INFO	Startup	Set registrar
+	15/03/2017 20:10:40	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	15/03/2017 20:12:02	INFO	Chaincode is UP	undefined
+	15/03/2017 20:12:38	INFO	Chaincode is UP	undefined
+	15/03/2017 20:13:09	INFO	Chaincode is UP	undefined
+	15/03/2017 20:13:40	INFO	Chaincode is UP	undefined
+	15/03/2017 20:14:15	INFO	Chaincode is UP	undefined
+	15/03/2017 20:14:17	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 20:14:23	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 20:14:23	INFO	POST blockchain/issuers	Created Issuer
+15/03/2017 20:14:30	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 20:14:36	EXIT	GET blockchain/issuers	OUTPUT: {}
+	15/03/2017 20:32:19	INFO	Startup complete on port	8080
+	15/03/2017 20:32:19	INFO	Startup	Enrolled registrar
+	15/03/2017 20:32:19	INFO	Startup	Set registrar
+	15/03/2017 20:32:19	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+15/03/2017 20:32:25	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:32:30	ERROR	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:33:12	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:33:12	INFO	Issuer	Registrar enroll worked with user nimc_user_2
+	15/03/2017 20:33:17	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	15/03/2017 20:33:17	INFO	POST blockchain/issuers	Created Issuer
+15/03/2017 20:33:24	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:33:39	INFO	Chaincode is UP	undefined
+15/03/2017 20:33:39	EXIT	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:33:39	EXIT	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:33:43	ENTER	GET blockchain/issuers	INPUT: {}
+	15/03/2017 20:33:50	ERROR	GET blockchain/issuers	OUTPUT: {}
+15/03/2017 20:33:53	ENTER	GET blockchain/issuers	INPUT: {}
+15/03/2017 20:34:08	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 08:38:12	INFO	Startup complete on port	8080
+	16/03/2017 08:38:12	INFO	Startup	Enrolled registrar
+	16/03/2017 08:38:12	INFO	Startup	Set registrar
+	16/03/2017 08:38:12	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 08:39:33	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 08:40:40	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 08:41:45	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 08:42:46	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 08:43:47	INFO	Chaincode is UP	undefined
+	16/03/2017 08:44:12	INFO	Chaincode is UP	undefined
+	16/03/2017 08:44:42	INFO	Chaincode is UP	undefined
+undefinedundefinedundefined	16/03/2017 09:01:02	INFO	Startup complete on port	8080
+	16/03/2017 09:01:02	INFO	Startup	Enrolled registrar
+	16/03/2017 09:01:02	INFO	Startup	Set registrar
+	16/03/2017 09:01:02	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 09:02:06	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 09:19:09	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 09:20:09	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 09:21:13	INFO	Chaincode is UP	undefined
+	16/03/2017 09:21:42	INFO	Chaincode is UP	undefined
+	16/03/2017 09:22:13	INFO	Chaincode is UP	undefined
+	16/03/2017 09:22:39	INFO	Chaincode is UP	undefined
+	16/03/2017 09:23:09	INFO	Chaincode is UP	undefined
+	16/03/2017 09:23:40	INFO	Chaincode is UP	undefined
+	16/03/2017 09:24:10	INFO	Chaincode is UP	undefined
+	16/03/2017 09:24:40	INFO	Chaincode is UP	undefined
+	16/03/2017 09:25:11	INFO	Chaincode is UP	undefined
+	16/03/2017 09:25:42	INFO	Chaincode is UP	undefined
+	16/03/2017 09:26:13	INFO	Chaincode is UP	undefined
+	16/03/2017 09:26:43	INFO	Chaincode is UP	undefined
+	16/03/2017 09:27:14	INFO	Chaincode is UP	undefined
+	16/03/2017 09:27:44	INFO	Chaincode is UP	undefined
+	16/03/2017 09:28:15	INFO	Chaincode is UP	undefined
+	16/03/2017 09:28:45	INFO	Chaincode is UP	undefined
+	16/03/2017 09:29:18	INFO	Chaincode is UP	undefined
+	16/03/2017 09:29:46	INFO	Chaincode is UP	undefined
+	16/03/2017 09:30:15	INFO	Chaincode is UP	undefined
+	16/03/2017 09:30:47	INFO	Chaincode is UP	undefined
+	16/03/2017 09:31:20	INFO	Chaincode is UP	undefined
+	16/03/2017 09:31:47	INFO	Chaincode is UP	undefined
+	16/03/2017 09:32:17	INFO	Chaincode is UP	undefined
+	16/03/2017 09:32:49	INFO	Chaincode is UP	undefined
+	16/03/2017 09:33:21	INFO	Chaincode is UP	undefined
+	16/03/2017 09:33:51	INFO	Chaincode is UP	undefined
+	16/03/2017 09:34:30	INFO	Startup complete on port	8080
+	16/03/2017 09:34:30	INFO	Startup	Enrolled registrar
+	16/03/2017 09:34:30	INFO	Startup	Set registrar
+	16/03/2017 09:34:30	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 09:35:02	ERROR	Identity	OUTPUT: "Failed to register Identity on BlockChain ECB-223113345"
+	16/03/2017 09:35:02	ERROR	POST blockchain/identity/initialize	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1012:14)\n    at Member.invoke (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:814:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:87:31\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)"
+	16/03/2017 09:35:51	INFO	Identity	Identity registered on BlockChain ECB-223113345
+	16/03/2017 09:35:51	INFO	POST blockchain/identity/initialize	Initialized Identity
+	16/03/2017 09:36:03	INFO	Chaincode is UP	undefined
+undefined16/03/2017 09:37:01	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:37:08	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 09:37:15	INFO	Chaincode is UP	undefined
+	16/03/2017 09:37:39	INFO	Chaincode is UP	undefined
+16/03/2017 09:37:48	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:37:54	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 09:38:09	INFO	Chaincode is UP	undefined
+	16/03/2017 09:38:40	INFO	Chaincode is UP	undefined
+16/03/2017 09:39:08	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:39:15	INFO	Chaincode is UP	undefined
+	16/03/2017 09:39:15	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 09:39:41	INFO	Chaincode is UP	undefined
+	16/03/2017 09:40:11	INFO	Chaincode is UP	undefined
+	16/03/2017 09:40:41	INFO	Startup complete on port	8080
+	16/03/2017 09:40:41	INFO	Startup	Enrolled registrar
+	16/03/2017 09:40:41	INFO	Startup	Set registrar
+	16/03/2017 09:40:41	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 09:42:28	INFO	Startup complete on port	8080
+	16/03/2017 09:42:28	INFO	Startup	Enrolled registrar
+	16/03/2017 09:42:28	INFO	Startup	Set registrar
+	16/03/2017 09:42:28	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 09:43:22	INFO	Chaincode is UP	undefined
+16/03/2017 09:43:27	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:43:36	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+16/03/2017 09:43:54	ENTER	GET blockchain/identity/ECB-223113345/publicKey	INPUT: {}
+	16/03/2017 09:43:59	INFO	Chaincode is UP	undefined
+	16/03/2017 09:44:55	ERROR	GET blockchain/identity/ECB-223113345/publicKey	OUTPUT: {}
+	16/03/2017 09:45:06	INFO	Chaincode is UP	undefined
+	16/03/2017 09:45:17	INFO	Startup complete on port	8080
+	16/03/2017 09:45:17	INFO	Startup	Enrolled registrar
+	16/03/2017 09:45:17	INFO	Startup	Set registrar
+	16/03/2017 09:45:17	ERROR	Startup	OUTPUT: {}

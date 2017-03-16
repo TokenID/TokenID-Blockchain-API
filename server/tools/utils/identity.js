@@ -2,20 +2,19 @@
 
 const Util = require('./util.js');
 const configFile = require(__dirname + '/../../configurations/configuration.js');
-const tracing = require(__dirname+'/../../tools/traces/trace.js');
+const tracing = require(__dirname + '/../../tools/traces/trace.js');
 const hfc = require('hfc');
 
-class Issuer {
+class Identity {
 
     constructor(securityContext) {
         this.securityContext = securityContext;
         this.chain = hfc.getChain(configFile.config.chainName);
     }
-
-    create(enrollID, issuerID, issuerCode, organization, identityCodes) {
+    create(ProviderEnrollmentID, IdentityCode, IdentityTypeCode, EncryptedIdentityPayload, EncryptionKey, IssuerID, MetaData, EncryptedAttachmentURI) {
         let regRequest = {};
         let chain = this.chain;
-        let securityContext =  this.securityContext;
+        let securityContext = this.securityContext;
         regRequest.enrollmentID = enrollID
         regRequest.affiliation = "group1" //TODO: change this value(group1).Only set for bluemix 
         regRequest.attributes = [
@@ -36,9 +35,9 @@ class Issuer {
                             resolve(enrolledUser);
                         })
                         .catch(function (err) {
-                           tracing.create('ERROR', 'Issuer', 'Failed to register issuer on BlockChain ' + issuerID);
-                           console.log(err);
-                           reject(err);
+                            tracing.create('ERROR', 'Issuer', 'Failed to register issuer on BlockChain ' + issuerID);
+                            console.log(err);
+                            reject(err);
                         });
 
                 }
@@ -50,6 +49,32 @@ class Issuer {
             });
         });
     }
+
+    initialize(providerEnrollmentID, publicKey) {
+        let regRequest = {};
+        let chain = this.chain;
+        let securityContext = this.securityContext;
+
+        return new Promise(function (resolve, reject) {
+            //TODO: Include chain deployment for the User
+
+            //Register New Identity on BlockChain
+            Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
+                .then(function () {
+                    tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
+                    resolve({message : "Successful"});
+                })
+                .catch(function (err) {
+                    tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);
+                    console.log(err);
+                    reject(err);
+                });
+       
+
+
+
+        });
+    }
 }
 
-module.exports = Issuer;
+module.exports = Identity;

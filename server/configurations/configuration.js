@@ -18,7 +18,7 @@ let enrollment = JSON.parse(fs.readFileSync(__dirname + '/../../enrollment.json'
 if(enrollment)
 {
     //Write enrollment to keyValueStore
-    fs.writeFile(__dirname + '/../../member.' + enrollment.name, JSON.stringify(enrollment), function(err){
+    fs.writeFile(__dirname + '/../../keyValStore/member.' + enrollment.name, JSON.stringify(enrollment), function(err){
         if(!err)
         {
             config.enrollment =  enrollment;
@@ -64,7 +64,7 @@ config.registrar_password = 'd3136c4a5d';
 //--------------------------------------------------------------------------------------------------------------------
 
 //Protocol used by HFC to communicate with blockchain peers and CA, need to change this manually.
-config.certificateFileName    = 'us.blockchain.ibm.com.cert'; //TLSCert
+//config.certificateFileName    = 'us.blockchain.ibm.com.cert'; //TLSCert
 config.keyStoreLocation       = './keyValStore';
 
 //--------------------------------------------------------------------------------------------------------------------
@@ -294,6 +294,6 @@ if (credentials.users) {
     });
 }
 
-config.chainName = "clientChain"
+//config.chainName = "clientChain"
 
 exports.config = config; // Exports for use in other files that require this one

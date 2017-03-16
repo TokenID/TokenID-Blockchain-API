@@ -1,28 +1,64 @@
 'use strict';
-const config = require(__dirname+'/../../../../configurations/configuration.js');
-
-
-let tracing = require(__dirname+'/../../../../tools/traces/trace.js');
-let map_ID = require(__dirname+'/../../../../tools/map_ID/map_ID.js');
-let Util = require(__dirname+'/../../../../tools/utils/util');
-let Issuer = require(__dirname+'/../../../../tools/utils/issuer');
+const configFile = require(__dirname+'/../../../configurations/configuration.js');
+let tracing = require(__dirname+'/../../../tools/traces/trace.js');
+let Util = require(__dirname+'/../../../tools/utils/util');
+let Issuer = require(__dirname+'/../../../tools/utils/issuer');
 
 function create (req, res, next) {
-    user_id = req.session.identity;
+    let securityContext =  configFile.config.securityContext;
 
-    let vehicleData = new Vehicle(usersToSecurityContext);
+    let issuer = new Issuer(securityContext);
+    let reqBody = req.body
 
-    return vehicleData.create(user_id)
-    .then(function(v5cID) {
-        tracing.create('INFO', 'POST blockchain/assets/vehicles', 'Created vehicle');
+    if(!reqBody)
+    {
+        res.status(400).json({message : "Request body cannot be empty"});
+        return;
+    }
+    if(!reqBody.enrollID){
+        res.status(400).json({message : "'enrollID' required"});
+        return
+    }
+    if(!reqBody.issuerCode){
+        res.status(400).json({message : "'issuerCode' required"});
+        return
+    }
+    if(!reqBody.issuerID){
+        res.status(400).json({message : "'issuerID' required"});
+        return
+    }
+    if(!reqBody.organization){
+        res.status(400).json({message : "'organization' required"});
+        return
+    }
+    if(!reqBody.organization){
+        res.status(400).json({message : "'organization' required"});
+        return
+    }
+    if(!reqBody.identityCodes || reqBody.identityCodes.length === 0 ){
+        res.status(400).json({message : "'identityCodes' required. Must have at least 1 identity code"});
+        return
+    }
+
+    return issuer.create(reqBody.enrollID, reqBody.issuerID, reqBody.issuerCode, reqBody.organization, reqBody.identityCodes)
+     .then(function(enrolledIssuer) {
+        tracing.create('INFO', 'POST blockchain/issuers', 'Created Issuer');
         let result = {};
-        result.message = 'Creation Confirmed';
-        result.v5cID = v5cID;
+        result.message = 'Issuer registration successful';
+        result.issuer = {};
+        result.issuer.enrollID = enrolledIssuer.name;
+        result.issuer.enrollmentSecret = enrolledIssuer.enrollmentSecret;
+        result.issuer.enrollment = {}
+        result.issuer.enrollment.key = enrolledIssuer.enrollment.key;
+        result.issuer.enrollment.cert = enrolledIssuer.enrollment.cert;
+        result.issuer.enrollment.chainKey = enrolledIssuer.enrollment.chainKey;
+        result.issuer.enrollment.queryStateKey = enrolledIssuer.enrollment.queryStateKey;
+        
         res.end(JSON.stringify(result));
-    })
+        })
     .catch(function(err) {
-        tracing.create('ERROR', 'POST blockchain/assets/vehicles', err.stack);
-        res.send(JSON.stringify({'message':err.stack}));
+        tracing.create('ERROR', 'POST blockchain/issuers', err.stack);
+        res.status(500).json({'message':err.stack});
     });
 }
 

@@ -3,6 +3,8 @@
 const hfc = require('hfc');
 const Vehicle = require(__dirname+'/../../../tools/utils/vehicle');
 
+const configFile = require(__dirname + '/../../../configurations/configuration.js');
+
 let tracing = require(__dirname+'/../../../tools/traces/trace.js');
 let map_ID = require(__dirname+'/../../../tools/map_ID/map_ID.js');
 let initial_vehicles = require(__dirname+'/../../../blockchain/assets/vehicles/initial_vehicles.js');
@@ -22,7 +24,7 @@ let v5cIDResults;
 function create(req, res, next, usersToSecurityContext) {
     try {
         v5cIDResults = [];
-        let chain = hfc.getChain(config.chainName);
+        let chain = hfc.getChain(configFile.config.chainName);
         vehicleData = new Vehicle(usersToSecurityContext);
 
         let cars;

@@ -115,7 +115,7 @@ exports.deployChaincode = deployChaincode;
 
 function pingChaincode(chain, securityContext) {
     return Util.queryChaincode(securityContext, 'ping', [])
-    .then(function() {
+    .then(function(data) {
         return true;
     })
     .catch(function(err) {

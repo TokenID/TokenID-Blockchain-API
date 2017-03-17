@@ -1905,3 +1905,162 @@ undefined	16/03/2017 20:36:22	INFO	Startup complete on port	8080
 	17/03/2017 15:44:44	INFO	Startup complete on port	8080
 	17/03/2017 15:44:44	INFO	Startup	Enrolled registrar
 	17/03/2017 15:44:44	INFO	Startup	Set registrar
+	17/03/2017 15:49:42	INFO	Startup complete on port	8080
+	17/03/2017 15:49:42	INFO	Startup	Enrolled registrar
+	17/03/2017 15:49:42	INFO	Startup	Set registrar
+	17/03/2017 15:50:55	INFO	Startup complete on port	8080
+	17/03/2017 15:50:55	INFO	Startup	Enrolled registrar
+	17/03/2017 15:50:55	INFO	Startup	Set registrar
+	17/03/2017 15:52:24	INFO	Startup complete on port	8080
+	17/03/2017 15:52:24	INFO	Startup	Enrolled registrar
+	17/03/2017 15:52:24	INFO	Startup	Set registrar
+	17/03/2017 16:05:13	INFO	Startup complete on port	8080
+	17/03/2017 16:05:13	INFO	Startup	Enrolled registrar
+	17/03/2017 16:05:13	INFO	Startup	Set registrar
+	17/03/2017 16:06:52	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 16:06:52	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:106:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 16:07:30	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 16:07:30	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:106:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 16:07:46	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 16:07:46	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:106:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 16:08:17	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 16:08:17	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:106:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 16:14:24	INFO	Startup complete on port	8080
+	17/03/2017 16:14:24	INFO	Startup	Enrolled registrar
+	17/03/2017 16:14:24	INFO	Startup	Set registrar
+	17/03/2017 16:18:25	INFO	Startup complete on port	8080
+	17/03/2017 16:18:25	INFO	Startup	Enrolled registrar
+	17/03/2017 16:18:25	INFO	Startup	Set registrar
+	17/03/2017 16:27:27	INFO	Startup complete on port	8080
+	17/03/2017 16:27:27	INFO	Startup	Enrolled registrar
+	17/03/2017 16:27:27	INFO	Startup	Set registrar
+	17/03/2017 16:34:12	INFO	Startup complete on port	8080
+	17/03/2017 16:34:12	INFO	Startup	Enrolled registrar
+	17/03/2017 16:34:12	INFO	Startup	Set registrar
+	17/03/2017 16:45:41	INFO	Startup complete on port	8080
+	17/03/2017 16:45:41	INFO	Startup	Enrolled registrar
+	17/03/2017 16:45:42	INFO	Startup	Set registrar
+	17/03/2017 16:46:47	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 16:46:47	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error: missing chaincodeName in DeployRequest\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:106:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 16:51:00	INFO	Startup complete on port	8080
+	17/03/2017 16:51:00	INFO	Startup	Enrolled registrar
+	17/03/2017 16:51:00	INFO	Startup	Set registrar
+	17/03/2017 16:52:56	INFO	Chaincode deployed with chaincodeID ECB223113345	
+	17/03/2017 16:54:01	INFO	Identity	Identity registered on BlockChain ECB223113345
+	17/03/2017 16:54:01	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	17/03/2017 16:54:39	INFO	Chaincode deployed with chaincodeID ECB223113345	
+	17/03/2017 16:55:29	INFO	Identity	Identity registered on BlockChain ECB223113345
+	17/03/2017 16:55:29	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+17/03/2017 17:00:12	ENTER	GET blockchain/identity/ECB223113345/publicKey	INPUT: {}
+	17/03/2017 17:00:18	ERROR	GET blockchain/identity/ECB223113345/publicKey	OUTPUT: {}
+17/03/2017 17:00:24	ENTER	GET blockchain/identity/ECB223113345/publicKey	INPUT: {}
+	17/03/2017 17:00:35	ERROR	GET blockchain/identity/ECB223113345/publicKey	OUTPUT: {}
+	17/03/2017 17:39:31	INFO	Chaincode deployed with chaincodeID ECB223113345	
+	17/03/2017 17:40:47	INFO	Identity	Identity registered on BlockChain ECB223113345
+	17/03/2017 17:40:47	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	17/03/2017 17:45:33	INFO	Startup complete on port	8080
+	17/03/2017 17:45:33	INFO	Startup	Enrolled registrar
+	17/03/2017 17:45:33	INFO	Startup	Set registrar
+	17/03/2017 17:47:08	INFO	Chaincode deployed with chaincodeID identity_chaincode	
+	17/03/2017 17:48:15	INFO	Identity	Identity registered on BlockChain ECB223113345
+	17/03/2017 17:48:15	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	17/03/2017 17:49:56	INFO	Startup complete on port	8080
+	17/03/2017 17:49:56	INFO	Startup	Set registrar
+	17/03/2017 17:49:56	INFO	Startup	Enrolled registrar
+	17/03/2017 17:51:39	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 17:51:39	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 17:51:56	INFO	Chaincode deployed with chaincodeID 9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b	
+	17/03/2017 17:52:03	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 17:52:03	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 17:52:27	INFO	Chaincode deployed with chaincodeID 9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b	
+	17/03/2017 17:53:23	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 17:53:23	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 17:53:47	INFO	Chaincode deployed with chaincodeID 9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b	
+	17/03/2017 17:54:14	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 17:54:14	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 17:54:38	INFO	Chaincode deployed with chaincodeID 9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b	
+	17/03/2017 17:55:14	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 17:55:14	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 17:55:14	INFO	Chaincode deployed with chaincodeID 9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b	
+	17/03/2017 18:02:57	INFO	Startup complete on port	8080
+	17/03/2017 18:02:57	INFO	Startup	Enrolled registrar
+	17/03/2017 18:02:57	INFO	Startup	Set registrar
+	17/03/2017 18:04:35	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:04:35	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:04:38	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:04:38	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:04:45	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:04:45	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:09:26	INFO	Startup complete on port	8080
+	17/03/2017 18:09:26	INFO	Startup	Enrolled registrar
+	17/03/2017 18:09:26	INFO	Startup	Set registrar
+	17/03/2017 18:09:48	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:10:09	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:12:21	INFO	Startup complete on port	8080
+	17/03/2017 18:12:21	INFO	Startup	Enrolled registrar
+	17/03/2017 18:12:21	INFO	Startup	Set registrar
+	17/03/2017 18:12:54	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:13:11	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:14:58	INFO	Startup complete on port	8080
+	17/03/2017 18:14:58	INFO	Startup	Enrolled registrar
+	17/03/2017 18:14:58	INFO	Startup	Set registrar
+	17/03/2017 18:16:20	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:16:37	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:21:58	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:22:01	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:22:20	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:22:22	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:23:14	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:23:16	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+	17/03/2017 18:28:09	INFO	Startup complete on port	8080
+	17/03/2017 18:28:09	INFO	Startup	Enrolled registrar
+	17/03/2017 18:28:09	INFO	Startup	Set registrar
+	17/03/2017 18:30:32	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:30:32	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 18:30:49	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
+	17/03/2017 18:40:14	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 18:40:14	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 18:40:38	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
+	17/03/2017 19:18:49	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin 5ee7ceed2f"
+	17/03/2017 19:20:06	ERROR	Startup	OUTPUT: "Failed to enroll registrar with admin 5ee7ceed2f"
+	17/03/2017 19:34:24	INFO	Startup	Enrolled registrar
+	17/03/2017 19:39:49	INFO	Startup complete on port	8000
+	17/03/2017 19:39:49	INFO	Startup	Enrolled registrar
+	17/03/2017 19:40:33	INFO	Startup complete on port	8000
+	17/03/2017 19:40:33	INFO	Startup	Enrolled registrar
+	17/03/2017 19:43:04	INFO	Startup complete on port	8000
+	17/03/2017 19:43:38	INFO	Startup complete on port	8000
+	17/03/2017 19:43:38	INFO	Startup	Enrolled registrar
+	17/03/2017 19:43:41	INFO	Startup	Set registrar
+	17/03/2017 19:44:06	INFO	Startup complete on port	8000
+	17/03/2017 19:44:06	INFO	Startup	Enrolled registrar
+	17/03/2017 19:44:06	INFO	Startup	Set registrar
+	17/03/2017 19:44:39	INFO	Startup complete on port	8000
+	17/03/2017 19:44:39	INFO	Startup	Enrolled registrar
+	17/03/2017 19:44:39	INFO	Startup	Set registrar
+	17/03/2017 19:46:09	INFO	Startup complete on port	8000
+	17/03/2017 19:46:20	INFO	Startup	Enrolled registrar
+	17/03/2017 19:46:20	INFO	Startup	Set registrar
+	17/03/2017 19:46:33	INFO	Startup	Registrar enroll worked with user provider_6
+	17/03/2017 19:46:33	INFO	Startup	All users registered
+	17/03/2017 19:50:51	INFO	Startup complete on port	8000
+	17/03/2017 19:51:06	INFO	Startup complete on port	8000
+	17/03/2017 19:51:06	INFO	Startup	Enrolled registrar
+	17/03/2017 19:51:06	INFO	Startup	Set registrar
+	17/03/2017 19:51:54	INFO	Startup complete on port	8000
+	17/03/2017 19:51:54	INFO	Startup	Enrolled registrar
+	17/03/2017 19:51:54	INFO	Startup	Set registrar
+	17/03/2017 19:52:04	INFO	Startup	Registrar enroll worked with user provider_12
+	17/03/2017 19:52:04	INFO	Startup	All users registered
+	17/03/2017 20:02:37	INFO	Startup complete on port	8080
+	17/03/2017 20:02:37	INFO	Startup	Enrolled registrar
+	17/03/2017 20:02:37	INFO	Startup	Set registrar
+	17/03/2017 20:03:43	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 20:03:43	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 20:04:00	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
+	17/03/2017 20:04:07	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 20:04:07	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 20:04:27	ERROR	Identity	OUTPUT: "Failed to deploying Identity Chaincode ECB223113345"
+	17/03/2017 20:04:27	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 20:04:31	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
+	17/03/2017 20:04:47	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	

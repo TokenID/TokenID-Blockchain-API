@@ -2,7 +2,7 @@
 
 const Util = require('./util.js');
 const configFile = require(__dirname + '/../../configurations/configuration.js');
-const tracing = require(__dirname+'/../../tools/traces/trace.js');
+const tracing = require(__dirname + '/../../tools/traces/trace.js');
 const hfc = require('hfc');
 
 class Issuer {
@@ -15,7 +15,7 @@ class Issuer {
     create(enrollID, issuerID, issuerCode, organization, identityCodes) {
         let regRequest = {};
         let chain = this.chain;
-        let securityContext =  this.securityContext;
+        let securityContext = this.securityContext;
         regRequest.enrollmentID = enrollID
         regRequest.affiliation = "group1" //TODO: change this value(group1).Only set for bluemix 
         regRequest.attributes = [
@@ -29,17 +29,8 @@ class Issuer {
             return chain.registerAndEnroll(regRequest, function (err, enrolledUser) {
                 if (!err) {
                     tracing.create('INFO', 'Issuer', 'Registrar enroll worked with user ' + regRequest.enrollmentID);
-                    //Register Issuer on BlockChain
-                    Util.invokeChaincode(securityContext, "initIssuer", [enrollID, issuerID, issuerCode, organization, identityCodes.toString()])
-                        .then(function () {
-                            tracing.create('INFO', 'Issuer', 'Issuer registered on BlockChain ' + issuerID);
-                            resolve(enrolledUser);
-                        })
-                        .catch(function (err) {
-                           tracing.create('ERROR', 'Issuer', 'Failed to register issuer on BlockChain ' + issuerID);
-                           console.log(err);
-                           reject(err);
-                        });
+                    tracing.create('INFO', 'Issuer', 'Issuer registered on BlockChain ' + issuerID);
+                    resolve(enrolledUser);
 
                 }
                 else {

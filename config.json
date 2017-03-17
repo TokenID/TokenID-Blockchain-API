@@ -9,5 +9,6 @@
     "certificateFileName": "us.blockchain.ibm.com.cert",
     "keyStoreLocation": "./keyValStore",
     "chainName": "clientChain",
-    "identityChainCodeUrl": "https://github.com/TokenID/TokenID-chaincode/src"
+    "identityChainCodePath": "identity_chaincode",
+    "devModeChainCodeID" : "9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b"
 }

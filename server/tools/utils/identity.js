@@ -104,11 +104,13 @@ class Identity {
 
     initialize(providerEnrollmentID, publicKey) {
         let chain = this.chain;
+        chain.setDevMode(true);
         let securityContext = this.securityContext;
 
         return new Promise(function (resolve, reject) {
             // ChainCode deployment for the Identity
-            startup.deployChaincode(securityContext.getEnrolledMember, configFile.config.identityChainCodeUrl, "init", [providerEnrollmentID, publicKey], configFile.config.certPath)
+            //Using dev mode chain code id - No chain code is actully been eployed
+            startup.deployChaincode(securityContext.getEnrolledMember(),configFile.config.identityChainCodePath, "tytrryryrrryy", "init", [providerEnrollmentID, publicKey], configFile.config.certPath)
                 .then(function (result) {
                     let chaincodeID = result.chaincodeID
                     securityContext.setChaincodeID(chaincodeID)
@@ -116,7 +118,7 @@ class Identity {
                     Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
                         .then(function () {
                             tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
-                            resolve({ message: "Identity successfully registered", "chaincodeID" : chaincodeID });
+                            resolve({ message: "Identity successfully registered", "chaincodeID": chaincodeID });
                         })
                         .catch(function (err) {
                             tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);
@@ -125,6 +127,11 @@ class Identity {
                         });
 
                 })
+                .catch(function (err) {
+                    tracing.create('ERROR', 'Identity', 'Failed to deploying Identity Chaincode ' + providerEnrollmentID);
+                    console.log(err);
+                    reject(err);
+                });
 
 
 

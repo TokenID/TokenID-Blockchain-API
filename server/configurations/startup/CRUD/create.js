@@ -80,12 +80,13 @@ function enrollUsers(chain, users, registrar) {
 
 exports.enrollUsers = enrollUsers;
 
-function deployChaincode(enrolledMember, chaincodePath, functionName, args, certPath) {
+function deployChaincode(enrolledMember, chaincodePath,chaincodeName, functionName, args, certPath) {
     return new Promise(function(resolve, reject) {
         let deployRequest = {
             fcn: functionName,
             args: args,
-            chaincodePath: chaincodePath
+            chaincodePath: chaincodePath,
+            chaincodeName : chaincodeName
         };
         deployRequest.certificatePath = certPath;
 

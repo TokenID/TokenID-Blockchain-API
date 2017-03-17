@@ -56,6 +56,10 @@ app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)
     identity.create(req, res, next);
 });
 
+app.post('/blockchain/identity/initialize/new', function (req, res, next) {
+    identity.initialize(req, res, next);
+});
+
 app.delete('/blockchain/identity/:providerEnrollmentID/:identityCode', function (req, res, next) {
     identity.delete(req, res, next);
 });

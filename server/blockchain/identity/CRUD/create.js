@@ -90,7 +90,7 @@ function initialize(req, res, next) {
                 tracing.create('INFO', 'POST blockchain/identity/initialize/new', 'Initialized Identity');
                 let result = {};
                 result.message = data.message;
-                result.chaincodeID =  result.chaincodeID;
+                result.chaincodeID =  data.chaincodeID;
                 result.providerEnrollmentID = reqBody.providerEnrollmentID;
                 res.json(result);
             })

@@ -67,6 +67,9 @@ config.registrar_password = 'd3136c4a5d';
 //config.certificateFileName    = 'us.blockchain.ibm.com.cert'; //TLSCert
 config.keyStoreLocation       = './keyValStore';
 
+//Peer Certificate Path - For chaincode deployment purposes
+config.certPath = '/certs/peer/cert.pem';
+
 //--------------------------------------------------------------------------------------------------------------------
 //    Chaincode
 //--------------------------------------------------------------------------------------------------------------------

@@ -52,14 +52,12 @@ app.use('/node_modules', express.static(__dirname + '/node_modules'));
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Identity
 //-----------------------------------------------------------------------------------------------
-app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)   
-{
-    identity.create(req, res,next);
+app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next) {
+    identity.create(req, res, next);
 });
 
-app.delete('/blockchain/identity/:providerEnrollmentID/:identityCode', function (req, res, next)   
-{
-    identity.delete(req, res,next);
+app.delete('/blockchain/identity/:providerEnrollmentID/:identityCode', function (req, res, next) {
+    identity.delete(req, res, next);
 });
 
 app.get('/blockchain/identity/:providerEnrollmentID', function (req, res, next) {
@@ -218,44 +216,14 @@ return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAd
     .then(function (r) {
         chain.setRegistrar(r);
         tracing.create('INFO', 'Startup', 'Set registrar');
-        return startup.loadEnrolledMember(chain,configFile.config.enrollment.name)
+        return startup.loadEnrolledMember(chain, configFile.config.enrollment.name)
 
     })
-    .then(function (member) { //ChaincodeID exists and it's up
-
-        if (configFile.config.chainCodeID) {
-            let sc = new SecurityContext(member);
-            sc.setChaincodeID(configFile.config.chainCodeID)
-            configFile.config.securityContext = sc;
-            tracing.create('INFO', 'Chaincode error may appear here - Ignore, chaincode has been pinged', '');
-            try {
-                return startup.pingChaincode(chain, sc);
-            } catch (e) {
-                //ping didnt work
-                tracing.create('ERROR', 'Could not ping chain code -> ', e)
-                return false;
-            }
-        }
-        else {
-            tracing.create('ERROR', 'Chaincode ID not set in config')
-            return false
-        }
-    })
-    .then(function (itExistsAndUp) {
-        if (itExistsAndUp) {
-            tracing.create('INFO', 'Chaincode is UP')
-            // Query the chaincode every 3 minutes
-            setInterval(function () {
-                startup.pingChaincode(chain,  configFile.config.securityContext)
-                    .then((success) => {
-                        if (!success) {
-                            tracing.create('WARN', 'Could not reach chaincode');
-                        } else {
-                             tracing.create('INFO', 'Chaincode is UP')    
-                        }
-                    });
-            }, 0.5 * 60000);
-        }
+    .then(function (member) {
+        let sc = new SecurityContext(member);
+        //If deployed in bluemix
+        configFile.config.certPath = (vcapServices) ? vcapServices.cert_path : configFile.config.certPath;
+        configFile.config.securityContext  = sc;
 
     })
     .catch(function (err) {

@@ -1902,3 +1902,6 @@ undefined	16/03/2017 20:36:22	INFO	Startup complete on port	8080
 	17/03/2017 07:02:15	ERROR	GET blockchain/issuers	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
 17/03/2017 07:02:16	ENTER	GET blockchain/issuers	INPUT: {}
 	17/03/2017 07:02:40	ERROR	GET blockchain/issuers	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/grpc/src/node/src/client.js:420:14"
+	17/03/2017 15:44:44	INFO	Startup complete on port	8080
+	17/03/2017 15:44:44	INFO	Startup	Enrolled registrar
+	17/03/2017 15:44:44	INFO	Startup	Set registrar

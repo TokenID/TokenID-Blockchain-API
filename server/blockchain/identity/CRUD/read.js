@@ -11,6 +11,14 @@ function getPublicKey(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID + '/publicKey', {});
     let securityContext = configFile.config.securityContext;
 
+    let chainCodeID = req.get(configFile.config.chainCodeIDHeaderName);
+    if (!chainCodeID) {
+        res.status(400).json({ message: "No Chaincode ID found in request header :" + configFile.config.chainCodeIDHeaderNam });
+        return;
+    }
+    securityContext.setChaincodeID(chainCodeID)
+
+
     Util.queryChaincode(securityContext, 'getPublicKey', [req.params.providerEnrollmentID])
         .then(function (data) {
             let pk = data.toString();
@@ -39,6 +47,13 @@ function getIdentities(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID, {});
     let securityContext = configFile.config.securityContext;
 
+    let chainCodeID = req.get(configFile.config.chainCodeIDHeaderName);
+    if (!chainCodeID) {
+        res.status(400).json({ message: "No Chaincode ID found in request header :" + configFile.config.chainCodeIDHeaderNam });
+        return;
+    }
+    securityContext.setChaincodeID(chainCodeID)
+
     Util.queryChaincode(securityContext, 'getIdentities', [req.params.providerEnrollmentID])
         .then(function (data) {
             let identities = JSON.parse(data.toString());
@@ -64,9 +79,15 @@ exports.getIdentities = getIdentities;
 
 function getIdentity(req, res, next) {
 
-
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID + '/' + req.params.identityCode, {});
+    
     let securityContext = configFile.config.securityContext;
+    let chainCodeID = req.get(configFile.config.chainCodeIDHeaderName);
+    if (!chainCodeID) {
+        res.status(400).json({ message: "No Chaincode ID found in request header :" + configFile.config.chainCodeIDHeaderNam });
+        return;
+    }
+    securityContext.setChaincodeID(chainCodeID)
 
     Util.queryChaincode(securityContext, 'getIdentity', [req.params.providerEnrollmentID, req.params.identityCode])
         .then(function (data) {

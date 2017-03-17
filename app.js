@@ -57,9 +57,9 @@ app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)
     identity.create(req, res,next);
 });
 
-app.post('/blockchain/identity/initialize/new', function (req, res, next)    
+app.delete('/blockchain/identity/:providerEnrollmentID/:identityCode', function (req, res, next)   
 {
-    identity.initialize(req, res, next);
+    identity.delete(req, res,next);
 });
 
 app.get('/blockchain/identity/:providerEnrollmentID', function (req, res, next) {
@@ -90,10 +90,6 @@ app.get('/blockchain/blocks/:blockNum(\\d+)', function (req, res, next) {
 //-----------------------------------------------------------------------------------------------
 app.post('/blockchain/issuers', function (req, res, next) {
     issuers.create(req, res, next);
-});
-
-app.get('/blockchain/issuers', function (req, res, next) {
-    issuers.read(req, res, next);
 });
 
 

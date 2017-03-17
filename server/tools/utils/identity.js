@@ -2,6 +2,7 @@
 
 const Util = require('./util.js');
 const configFile = require(__dirname + '/../../configurations/configuration.js');
+const startup = require(__dirname + '/../../configurations/startup/startup.js');
 const tracing = require(__dirname + '/../../tools/traces/trace.js');
 const hfc = require('hfc');
 const ursa = require('ursa');
@@ -31,7 +32,7 @@ class Identity {
                         let encryptedPayload = cipher.update(JSON.stringify(identityPayload));
                         let encryptedPayloadFinal = cipher.final();
                         //Append IV to encrypted payload and encode in base64 
-                        let encryptedPayloadWithIVInBase64 = Buffer.concat([encryptedPayload,encryptedPayloadFinal, initializationVector], encryptedPayload.length + encryptedPayloadFinal.length + initializationVector.length).toString("base64");
+                        let encryptedPayloadWithIVInBase64 = Buffer.concat([encryptedPayload, encryptedPayloadFinal, initializationVector], encryptedPayload.length + encryptedPayloadFinal.length + initializationVector.length).toString("base64");
 
                         //Encrypt attachment URI
                         let initializationVector2 = crypto.randomBytes(16);
@@ -40,7 +41,7 @@ class Identity {
                         let encryptedAttachmentURIFinal = cipher2.final();
 
                         //Append IV to encrypted attachmentURI and encode in base64 
-                        let encryptedAttachmentURIWithIVInBase64 = Buffer.concat([encryptedAttachmentURI,encryptedAttachmentURIFinal, initializationVector2], encryptedAttachmentURI.length + encryptedAttachmentURIFinal.length + initializationVector2.length).toString("base64");
+                        let encryptedAttachmentURIWithIVInBase64 = Buffer.concat([encryptedAttachmentURI, encryptedAttachmentURIFinal, initializationVector2], encryptedAttachmentURI.length + encryptedAttachmentURIFinal.length + initializationVector2.length).toString("base64");
 
                         //Encrypt AES Key and encode to base64
                         let publicKey = ursa.createPublicKey(pk);
@@ -76,24 +77,54 @@ class Identity {
         });
     }
 
+    remove(providerEnrollmentID, identityTypeCode) {
+        let chain = this.chain;
+        let securityContext = this.securityContext;
+
+        return new Promise(function (resolve, reject) {
+            Util.invokeChaincode(securityContext, 'removeIdentity', [providerEnrollmentID, identityTypeCode])
+                .then(function (data) {
+                    let pk = data.toString();
+                    console.log(pk);
+                    tracing.create('INFO', 'Identity', 'Identity removed -> ' + providerEnrollmentID + '/' + identityTypeCode);
+                    let result = {};
+                    result.message = 'Identity succesfully deleted';
+                    resolve(result);
+                })
+                .catch(function (err) {
+                    let error = {};
+                    error.error = true;
+                    error.message = err;
+                    tracing.create('INFO', 'Identity', 'Failed to remove identity -> ' + providerEnrollmentID + '/' + identityTypeCode, err);
+                    console.log(err)
+                    resolve(error)
+                });
+        });
+    }
+
     initialize(providerEnrollmentID, publicKey) {
         let chain = this.chain;
         let securityContext = this.securityContext;
 
         return new Promise(function (resolve, reject) {
-            //TODO: Include chain deployment for the User
+            // ChainCode deployment for the Identity
+            startup.deployChaincode(securityContext.getEnrolledMember, configFile.config.identityChainCodeUrl, "init", [providerEnrollmentID, publicKey], configFile.config.certPath)
+                .then(function (result) {
+                    let chaincodeID = result.chaincodeID
+                    securityContext.setChaincodeID(chaincodeID)
+                    //Register New Identity on BlockChain
+                    Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
+                        .then(function () {
+                            tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
+                            resolve({ message: "Successful" });
+                        })
+                        .catch(function (err) {
+                            tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);
+                            console.log(err);
+                            reject(err);
+                        });
 
-            //Register New Identity on BlockChain
-            Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
-                .then(function () {
-                    tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
-                    resolve({ message: "Successful" });
                 })
-                .catch(function (err) {
-                    tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);
-                    console.log(err);
-                    reject(err);
-                });
 
 
 

@@ -11,7 +11,7 @@ function getPublicKey(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID + '/publicKey', {});
     let securityContext = configFile.config.securityContext;
 
-    return Util.queryChaincode(securityContext, 'getPublicKey', [req.params.providerEnrollmentID])
+    Util.queryChaincode(securityContext, 'getPublicKey', [req.params.providerEnrollmentID])
         .then(function (data) {
             let pk = data.toString();
             let result = {};
@@ -39,7 +39,7 @@ function getIdentities(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID, {});
     let securityContext = configFile.config.securityContext;
 
-    return Util.queryChaincode(securityContext, 'getIdentities', [req.params.providerEnrollmentID])
+    Util.queryChaincode(securityContext, 'getIdentities', [req.params.providerEnrollmentID])
         .then(function (data) {
             let identities = JSON.parse(data.toString());
             let result = {};
@@ -68,7 +68,7 @@ function getIdentity(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/identity/' + req.params.providerEnrollmentID + '/' + req.params.identityCode, {});
     let securityContext = configFile.config.securityContext;
 
-    return Util.queryChaincode(securityContext, 'getIdentity', [req.params.providerEnrollmentID, req.params.identityCode])
+    Util.queryChaincode(securityContext, 'getIdentity', [req.params.providerEnrollmentID, req.params.identityCode])
         .then(function (data) {
             let identity = JSON.parse(data.toString());
             let result = {};

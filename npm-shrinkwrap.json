@@ -1,0 +1,13 @@
+{
+  "name": "tokenid-blockchain-api",
+  "version": "0.1.1",
+  "dependencies": {
+    
+    "grpc": {
+      "version": "1.1.2",
+      "from": "grpc@1.0.0",
+      "resolved": "https://registry.npmjs.org/grpc/-/grpc-1.1.2.tgz"
+      
+    }
+  }
+}

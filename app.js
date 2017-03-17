@@ -8,8 +8,6 @@
  *******************************************************************************/
 
 let express = require('express');
-let session = require('express-session');
-let cookieParser = require('cookie-parser');
 let bodyParser = require('body-parser');
 let app = express();
 let url = require('url');
@@ -25,11 +23,7 @@ let configFile = require(__dirname + '/server/configurations/configuration.js');
 let blocks = require(__dirname + '/server/blockchain/blocks/blocks.js');
 let block = require(__dirname + '/server/blockchain/blocks/block/block.js');
 let identity = require(__dirname + '/server/blockchain/identity/identity.js');
-let vehicles = require(__dirname + '/server/blockchain/assets/vehicles/vehicles.js');
-let vehicle = require(__dirname + '/server/blockchain/assets/vehicles/vehicle/vehicle.js');
 let issuers = require(__dirname + '/server/blockchain/issuers/issuers.js');
-let chaincode = require(__dirname + '/server/blockchain/chaincode/chaincode.js');
-let transactions = require(__dirname + '/server/blockchain/transactions/transactions.js');
 let startup = require(__dirname + '/server/configurations/startup/startup.js');
 let http = require('http');
 
@@ -44,8 +38,6 @@ let port = process.env.VCAP_APP_PORT || configFile.config.appPort;
 ////////  Pathing and Module Setup  ////////
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
-app.use(cookieParser());
-app.use(session({ secret: 'Somethignsomething1234!test', resave: true, saveUninitialized: true }));
 
 // Enable CORS preflight across the board.
 app.options('*', cors());
@@ -60,12 +52,12 @@ app.use('/node_modules', express.static(__dirname + '/node_modules'));
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Identity
 //-----------------------------------------------------------------------------------------------
-app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
+app.post('/blockchain/identity/:providerEnrollmentID', function (req, res, next)   
 {
     identity.create(req, res,next);
 });
 
-app.post('/blockchain/identity/initialize/new', function (req, res, next)     //Sets the session user to have the account address for the page they are currently on
+app.post('/blockchain/identity/initialize/new', function (req, res, next)    
 {
     identity.initialize(req, res, next);
 });
@@ -81,12 +73,6 @@ app.get('/blockchain/identity/:providerEnrollmentID/:identityCode', function (re
     identity.getIdentity(req, res, next);
 });
 
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - chaincode
-//-----------------------------------------------------------------------------------------------
-app.post('/blockchain/chaincode/vehicles', function (req, res, next) {
-    chaincode.vehicles.create(req, res, next, usersToSecurityContext);
-});
 
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Blocks8d55b8daf0
@@ -110,110 +96,12 @@ app.get('/blockchain/issuers', function (req, res, next) {
     issuers.read(req, res, next);
 });
 
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle
-//-----------------------------------------------------------------------------------------------
-
-app.get('/blockchain/assets/vehicles/:v5cID', function (req, res, next) {
-    vehicle.read(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Owner
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/owner', function (req, res, next) {
-    vehicle.owner.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/owner', function (req, res, next) {
-    vehicle.owner.update(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - VIN
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/VIN', function (req, res, next) {
-    vehicle.VIN.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/VIN', function (req, res, next) {
-    vehicle.VIN.update(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Colour
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/colour', function (req, res, next) {
-    vehicle.colour.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/colour', function (req, res, next) {
-    vehicle.colour.update(req, res, next, usersToSecurityContext);
-});
-
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Make
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/make', function (req, res, next) {
-    vehicle.make.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/make', function (req, res, next) {
-    vehicle.make.update(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Model
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/model', function (req, res, next) {
-    vehicle.model.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/model', function (req, res, next) {
-    vehicle.model.update(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Reg
-//-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/vehicles/:v5cID/reg', function (req, res, next) {
-    vehicle.reg.read(req, res, next, usersToSecurityContext);
-});
-
-app.put('/blockchain/assets/vehicles/:v5cID/reg', function (req, res, next) {
-
-    vehicle.reg.update(req, res, next, usersToSecurityContext);
-});
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Assets - Vehicles - Vehicle - Scrapped
-//-----------------------------------------------------------------------------------------------
-app.delete('/blockchain/assets/vehicles/:v5cID', function (req, res, next) {
-    vehicle.delete(req, res, next, usersToSecurityContext);
-});
-
-app.get('/blockchain/assets/vehicles/:v5cID/scrap', function (req, res, next) {
-    vehicle.scrapped.read(req, res, next, usersToSecurityContext);
-});
-
-
-//-----------------------------------------------------------------------------------------------
-//    Blockchain - Transactions
-//------------------------chain.setDeployWaitTime(100);-----------------------------------------------------------------------
-app.get('/blockchain/transactions', function (req, res, next) {
-    transactions.read(req, res, next, usersToSecurityContext);
-});
 
 ///////////  Configure Webserver  ///////////
 app.use(function (req, res, next) {
     let keys;
     console.log('------------------------------------------ incoming request ------------------------------------------');
     console.log('New ' + req.method + ' request for', req.url);
-    req.bag = {};                                            //create my object for my stuff
-    req.session.count = eval(req.session.count) + 1;
-    req.bag.session = req.session;
-
     let url_parts = url.parse(req.url, true);
     req.parameters = url_parts.query;
     keys = Object.keys(req.parameters);
@@ -236,12 +124,6 @@ app.use(function (err, req, res, next) {        // = development error handler, 
     console.log('Error Handler -', req.url, err);
     let errorCode = err.status || 500;
     res.status(errorCode);
-    if (req.bag) {
-        req.bag.error = { msg: err.stack, status: errorCode };
-        if (req.bag.error.status === 404) {
-            req.bag.error.msg = 'Sorry, I cannot locate that file';
-        }
-    }
     //res.render('template/error', {bag: req.bag});
     res.send({ 'message': err });
 });
@@ -332,20 +214,6 @@ io.sockets.on('connection', (socket) => {
     eventEmitter.emit('setup', demoStatus);
 });
 
-function setSetupError(err) {
-    demoStatus.status = 'ERROR';
-    demoStatus.success = false;
-    if (!process.env.VCAP_SERVICES) {
-        demoStatus.error = 'There was an error starting the demo. Please try again.';
-        demoStatus.detailedError = err.message || 'Server error';
-    } else {
-        demoStatus.error = 'There was an error starting the demo. Please try again. Ensure you delete both the demo and the blockchain service';
-        demoStatus.detailedError = err.message || 'Server error';
-    }
-    if (eventEmitter) {
-        eventEmitter.emit('setup', demoStatus);
-    }
-}
 
 
 let chaincodeID;

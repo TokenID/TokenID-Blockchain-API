@@ -11,7 +11,7 @@ function getIssuers(req, res, next) {
     tracing.create('ENTER', 'GET blockchain/issuers', {});
     let securityContext =  configFile.config.securityContext;
 
-    return Util.queryChaincode(securityContext, 'getIssuers', [])
+    Util.queryChaincode(securityContext, 'getIssuers', [])
         .then(function (data) {
             let issuers = JSON.parse(data.toString());
             let result = {};
@@ -25,8 +25,8 @@ function getIssuers(req, res, next) {
             res.status(400);
             let error = {};
             error.error = true;
-            error.message = err;
-            tracing.create('ERROR', 'GET blockchain/issuers', err);
+            error.message = err.stack;
+            tracing.create('ERROR', 'GET blockchain/issuers', err.stack);
             res.json(error);
         });
 }

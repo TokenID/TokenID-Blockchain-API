@@ -1666,3 +1666,239 @@ undefined	16/03/2017 19:11:59	INFO	Chaincode is UP	undefined
 	16/03/2017 19:17:16	INFO	Startup	Enrolled registrar
 	16/03/2017 19:17:16	INFO	Startup	Set registrar
 	16/03/2017 19:17:16	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 19:18:08	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 19:18:13	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 19:18:13	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 19:18:26	INFO	Chaincode is UP	undefined
+	16/03/2017 19:18:38	INFO	Identity	Identity registered on BlockChain ECB223113345
+	16/03/2017 19:18:38	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 19:18:52	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:18:52	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044 [Not a public key.]"
+	16/03/2017 19:18:52	ERROR	POST blockchain/identity/ECB223113345	OUTPUT: "Error: Not a public key.\n    at Object.createPublicKey (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/ursa/lib/ursa.js:419:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:46"
+	16/03/2017 19:19:01	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:19:01	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044 [Not a public key.]"
+	16/03/2017 19:19:01	ERROR	POST blockchain/identity/ECB223113345	OUTPUT: "Error: Not a public key.\n    at Object.createPublicKey (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/ursa/lib/ursa.js:419:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:46"
+	16/03/2017 19:19:02	INFO	Chaincode is UP	undefined
+	16/03/2017 19:19:09	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:19:09	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044 [Not a public key.]"
+	16/03/2017 19:19:09	ERROR	POST blockchain/identity/ECB223113345	OUTPUT: "Error: Not a public key.\n    at Object.createPublicKey (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/ursa/lib/ursa.js:419:19)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:46:46"
+	16/03/2017 19:19:17	INFO	Identity	Identity registered on BlockChain ECB223113345
+	16/03/2017 19:19:17	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 19:19:28	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:19:32	INFO	Chaincode is UP	undefined
+	16/03/2017 19:19:33	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 19:19:33	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 19:19:38	ENTER	GET blockchain/identity/ECB223113345	INPUT: {}
+16/03/2017 19:19:51	EXIT	GET blockchain/identity/ECB223113345	OUTPUT: {}
+	16/03/2017 19:23:14	INFO	Startup complete on port	8080
+	16/03/2017 19:23:14	INFO	Startup	Enrolled registrar
+	16/03/2017 19:23:14	INFO	Startup	Set registrar
+	16/03/2017 19:23:14	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 19:24:09	INFO	Chaincode is UP	undefined
+16/03/2017 19:24:15	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 19:24:28	ERROR	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 19:24:47	INFO	Chaincode is UP	undefined
+16/03/2017 19:25:15	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 19:25:16	INFO	Chaincode is UP	undefined
+16/03/2017 19:25:20	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 19:32:37	INFO	Startup complete on port	8080
+	16/03/2017 19:32:37	INFO	Startup	Enrolled registrar
+	16/03/2017 19:32:37	INFO	Startup	Set registrar
+	16/03/2017 19:32:37	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 19:33:35	INFO	Startup complete on port	8080
+	16/03/2017 19:33:35	INFO	Startup	Enrolled registrar
+	16/03/2017 19:33:35	INFO	Startup	Set registrar
+	16/03/2017 19:33:35	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 19:34:22	INFO	Issuer	Registrar enroll worked with user nimc_user_20
+	16/03/2017 19:34:28	INFO	Issuer	Issuer registered on BlockChain NIMC-2341175555
+	16/03/2017 19:34:28	INFO	POST blockchain/issuers	Created Issuer
+	16/03/2017 19:34:35	INFO	Chaincode is UP	undefined
+	16/03/2017 19:34:38	INFO	Identity	Identity registered on BlockChain ECB223113345
+	16/03/2017 19:34:38	INFO	POST blockchain/identity/initialize/new	Initialized Identity
+	16/03/2017 19:34:49	INFO	Identity	Successfully got public Key for ECB223113345
+	16/03/2017 19:34:54	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	16/03/2017 19:34:54	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+16/03/2017 19:34:59	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+16/03/2017 19:35:06	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 19:57:46	INFO	Startup complete on port	8080
+	16/03/2017 19:57:46	INFO	Startup	Enrolled registrar
+	16/03/2017 19:57:46	INFO	Startup	Set registrar
+	16/03/2017 19:57:46	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 19:57:52	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 19:57:58	ERROR	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+16/03/2017 19:58:39	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 19:58:51	INFO	Chaincode is UP	undefined
+16/03/2017 19:58:51	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 20:07:08	INFO	Startup complete on port	8080
+	16/03/2017 20:07:08	INFO	Startup	Enrolled registrar
+	16/03/2017 20:07:08	INFO	Startup	Set registrar
+	16/03/2017 20:07:08	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:07:19	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:07:22	ERROR	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+16/03/2017 20:08:08	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:08:09	INFO	Chaincode is UP	undefined
+16/03/2017 20:08:14	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+16/03/2017 20:08:24	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:22:57	INFO	Startup complete on port	8080
+	16/03/2017 20:22:57	INFO	Startup	Enrolled registrar
+	16/03/2017 20:22:57	INFO	Startup	Set registrar
+	16/03/2017 20:22:57	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 20:24:07	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 20:24:58	INFO	Startup complete on port	8080
+	16/03/2017 20:24:58	INFO	Startup	Enrolled registrar
+	16/03/2017 20:24:58	INFO	Startup	Set registrar
+	16/03/2017 20:24:58	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:25:56	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:26:07	INFO	Chaincode is UP	undefined
+16/03/2017 20:26:07	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+16/03/2017 20:26:35	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:27:13	INFO	Startup complete on port	8080
+	16/03/2017 20:27:13	INFO	Startup	Enrolled registrar
+	16/03/2017 20:27:13	INFO	Startup	Set registrar
+	16/03/2017 20:27:13	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:28:04	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:28:18	INFO	Chaincode is UP	undefined
+16/03/2017 20:28:19	EXIT	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 20:29:17	INFO	Startup complete on port	8080
+	16/03/2017 20:29:17	INFO	Startup	Enrolled registrar
+	16/03/2017 20:29:17	INFO	Startup	Set registrar
+	16/03/2017 20:29:17	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:30:15	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:30:27	INFO	Chaincode is UP	undefined
+	16/03/2017 20:30:47	INFO	Startup complete on port	8080
+	16/03/2017 20:30:47	INFO	Startup	Enrolled registrar
+	16/03/2017 20:30:47	INFO	Startup	Set registrar
+	16/03/2017 20:30:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 20:31:47	INFO	Startup complete on port	8080
+	16/03/2017 20:31:47	INFO	Startup	Enrolled registrar
+	16/03/2017 20:31:47	INFO	Startup	Set registrar
+	16/03/2017 20:31:47	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 20:32:46	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 20:33:55	INFO	Chaincode is UP	undefined
+	16/03/2017 20:34:01	INFO	Startup complete on port	8080
+	16/03/2017 20:34:01	INFO	Startup	Enrolled registrar
+	16/03/2017 20:34:01	INFO	Startup	Set registrar
+	16/03/2017 20:34:01	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 20:35:12	INFO	Chaincode is UP	undefined
+undefined	16/03/2017 20:36:22	INFO	Startup complete on port	8080
+	16/03/2017 20:36:22	INFO	Startup	Enrolled registrar
+	16/03/2017 20:36:22	INFO	Startup	Set registrar
+	16/03/2017 20:36:22	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:36:35	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:36:40	ERROR	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+16/03/2017 20:37:20	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:38:07	INFO	Startup complete on port	8080
+	16/03/2017 20:38:07	INFO	Startup	Enrolled registrar
+	16/03/2017 20:38:07	INFO	Startup	Set registrar
+	16/03/2017 20:38:07	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+	16/03/2017 20:39:20	INFO	Chaincode is UP	undefined
+16/03/2017 20:39:28	ENTER	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	INPUT: {}
+	16/03/2017 20:39:33	ERROR	GET blockchain/identity/ECB223113345/NIMC-2056I6840849044	OUTPUT: {}
+	16/03/2017 20:39:58	INFO	Chaincode is UP	undefined
+16/03/2017 20:40:20	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 20:40:26	INFO	Chaincode is UP	undefined
+16/03/2017 20:40:26	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 20:43:16	INFO	Startup complete on port	8080
+	16/03/2017 20:43:16	INFO	Startup	Enrolled registrar
+	16/03/2017 20:43:16	INFO	Startup	Set registrar
+	16/03/2017 20:43:16	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+16/03/2017 20:43:22	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 20:43:22	ERROR	GET blockchain/issuers	OUTPUT: {}
+16/03/2017 20:43:24	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 20:43:24	ERROR	GET blockchain/issuers	OUTPUT: {}
+16/03/2017 20:43:26	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 20:43:26	ERROR	GET blockchain/issuers	OUTPUT: {}
+16/03/2017 20:43:41	ENTER	GET blockchain/issuers	INPUT: {}
+	16/03/2017 20:43:42	INFO	Chaincode is UP	undefined
+16/03/2017 20:43:47	EXIT	GET blockchain/issuers	OUTPUT: {}
+16/03/2017 20:43:57	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 20:44:03	EXIT	GET blockchain/issuers	OUTPUT: {}
+16/03/2017 20:44:11	ENTER	GET blockchain/identity/ECB223113345	INPUT: {}
+16/03/2017 20:44:17	EXIT	GET blockchain/identity/ECB223113345	OUTPUT: {}
+	16/03/2017 20:44:20	INFO	Chaincode is UP	undefined
+16/03/2017 20:44:34	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 20:44:40	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 20:44:48	INFO	Chaincode is UP	undefined
+16/03/2017 20:45:12	ENTER	GET blockchain/issuers	INPUT: {}
+16/03/2017 20:45:17	EXIT	GET blockchain/issuers	OUTPUT: {}
+	16/03/2017 20:45:17	INFO	Chaincode is UP	undefined
+	16/03/2017 20:45:47	INFO	Chaincode is UP	undefined
+	16/03/2017 20:46:20	INFO	Chaincode is UP	undefined
+	16/03/2017 20:46:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:47:18	INFO	Chaincode is UP	undefined
+	16/03/2017 20:47:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:48:21	INFO	Chaincode is UP	undefined
+	16/03/2017 20:48:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:49:18	INFO	Chaincode is UP	undefined
+	16/03/2017 20:49:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:50:19	INFO	Chaincode is UP	undefined
+	16/03/2017 20:50:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:51:16	INFO	Chaincode is UP	undefined
+	16/03/2017 20:51:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:52:22	INFO	Chaincode is UP	undefined
+	16/03/2017 20:52:47	INFO	Chaincode is UP	undefined
+	16/03/2017 20:53:17	INFO	Chaincode is UP	undefined
+	16/03/2017 20:53:47	INFO	Chaincode is UP	undefined
+	16/03/2017 20:54:20	INFO	Chaincode is UP	undefined
+	16/03/2017 20:54:47	INFO	Chaincode is UP	undefined
+	16/03/2017 20:55:17	INFO	Chaincode is UP	undefined
+	16/03/2017 20:55:47	INFO	Chaincode is UP	undefined
+	16/03/2017 20:56:22	INFO	Chaincode is UP	undefined
+	16/03/2017 20:56:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:57:18	INFO	Chaincode is UP	undefined
+	16/03/2017 20:57:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:58:19	INFO	Chaincode is UP	undefined
+	16/03/2017 20:58:48	INFO	Chaincode is UP	undefined
+	16/03/2017 20:59:17	INFO	Chaincode is UP	undefined
+	16/03/2017 20:59:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:00:19	INFO	Chaincode is UP	undefined
+	16/03/2017 21:00:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:01:18	INFO	Chaincode is UP	undefined
+	16/03/2017 21:01:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:02:17	INFO	Chaincode is UP	undefined
+	16/03/2017 21:02:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:03:18	INFO	Chaincode is UP	undefined
+	16/03/2017 21:03:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:04:20	INFO	Chaincode is UP	undefined
+	16/03/2017 21:04:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:05:17	INFO	Chaincode is UP	undefined
+	16/03/2017 21:05:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:06:19	INFO	Chaincode is UP	undefined
+	16/03/2017 21:06:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:07:19	INFO	Chaincode is UP	undefined
+	16/03/2017 21:07:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:08:18	INFO	Chaincode is UP	undefined
+	16/03/2017 21:08:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:09:20	INFO	Chaincode is UP	undefined
+	16/03/2017 21:09:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:10:19	INFO	Chaincode is UP	undefined
+	16/03/2017 21:10:50	INFO	Chaincode is UP	undefined
+	16/03/2017 21:11:20	INFO	Chaincode is UP	undefined
+	16/03/2017 21:11:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:12:20	INFO	Chaincode is UP	undefined
+	16/03/2017 21:12:48	INFO	Chaincode is UP	undefined
+	16/03/2017 21:13:19	INFO	Chaincode is UP	undefined
+	16/03/2017 21:13:49	INFO	Chaincode is UP	undefined
+	16/03/2017 21:14:20	INFO	Chaincode is UP	undefined
+	17/03/2017 06:58:15	INFO	Startup complete on port	8080
+	17/03/2017 06:58:15	INFO	Startup	Enrolled registrar
+	17/03/2017 06:58:15	INFO	Startup	Set registrar
+	17/03/2017 06:58:15	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+17/03/2017 06:59:46	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 06:59:46	ERROR	GET blockchain/issuers	OUTPUT: {}
+17/03/2017 06:59:59	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 06:59:59	ERROR	GET blockchain/issuers	OUTPUT: {}
+	17/03/2017 07:00:52	INFO	Startup complete on port	8080
+	17/03/2017 07:00:52	INFO	Startup	Enrolled registrar
+	17/03/2017 07:00:52	INFO	Startup	Set registrar
+	17/03/2017 07:00:52	INFO	Chaincode error may appear here - Ignore, chaincode has been pinged	
+17/03/2017 07:00:55	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 07:00:55	ERROR	GET blockchain/issuers	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+17/03/2017 07:00:56	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 07:00:56	ERROR	GET blockchain/issuers	OUTPUT: "Error: started twice without stopping\n    at Error (native)\n    at ResponseTime.start (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/stats.js:77:19)\n    at TCertGetter.getTCerts (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1705:35)\n    at TCertGetter.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1659:18)\n    at Member.getNextTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:862:28)\n    at TransactionContext.getMyTCert (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1175:21)\n    at TransactionContext.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1041:14)\n    at Member.query (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:825:12)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:36:31\n    at Function.queryChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:18:20)"
+17/03/2017 07:02:11	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 07:02:11	ERROR	GET blockchain/issuers	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+17/03/2017 07:02:15	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 07:02:15	ERROR	GET blockchain/issuers	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at null._onTimeout (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:970:22)\n    at Timer.listOnTimeout (timers.js:92:15)"
+17/03/2017 07:02:16	ENTER	GET blockchain/issuers	INPUT: {}
+	17/03/2017 07:02:40	ERROR	GET blockchain/issuers	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:47:32)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/grpc/src/node/src/client.js:420:14"

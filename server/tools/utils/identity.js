@@ -116,7 +116,7 @@ class Identity {
                     Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
                         .then(function () {
                             tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
-                            resolve({ message: "Successful" });
+                            resolve({ message: "Identity successfully registered", "chaincodeID" : chaincodeID });
                         })
                         .catch(function (err) {
                             tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);

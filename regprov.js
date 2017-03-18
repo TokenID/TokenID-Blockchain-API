@@ -15,7 +15,10 @@ let server = http.createServer(app).listen(8000, function () {
     tracing.create('INFO', 'Startup complete on port', server.address().port);
 });
 server.timeout = 2400000;
-
+let q  = {};
+let c = decodeURIComponent("-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqvxGELxbe3m0kGNsFjEE%0A1oTTOnDtCo7d7wPX1nmyszSHSfEydf1WZHyqczp2pSE%2B%2BeN1HKdfCc4RAxvGVp%2FC%0A1gYFwietuaPrtJdEH41q%2BMR%2BIkOMEHeLkkBlcdhnQIUlLa%2FxT3K92pF1mqpej6Lb%0AK%2Bx0hVUEX1k%2BzbGzjbskhl11S0o2f6bQ7Xcar8Qr6JbXPf8QdYU1EdnAaHmvM%2Bei%0AstW9NM8L2B%2B0r4DW81DPHdeOuULyZCysBXDN3ijuT4W5ytwroBJsWC2HGJLK0VWs%0AFp3fhSGg0bQ%2Bfv5bnLa77dH5i6Aahul2J%2FDGazQF969rGGa4WGuiQZu%2BI0aF3l3j%0ALQIDAQAB%0A-----END%20PUBLIC%20KEY-----")
+q.c = c;
+let z = JSON.stringify(q);
 // Setup HFC
 let chain = hfc.newChain(configFile.config.chainName);
 //This is the location of the key store HFC will use. If running locally, this directory must exist on your machine

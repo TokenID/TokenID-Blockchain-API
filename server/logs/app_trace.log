@@ -2064,3 +2064,36 @@ undefined	16/03/2017 20:36:22	INFO	Startup complete on port	8080
 	17/03/2017 20:04:27	ERROR	POST blockchain/identity/initialize/new	OUTPUT: "Error: Error\n    at TransactionContext.<anonymous> (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/configurations/startup/CRUD/create.js:107:24)\n    at emitOne (events.js:77:13)\n    at TransactionContext.emit (events.js:169:7)\n    at Object.callback (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/lib/hfc.js:1759:41)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:420:14"
 	17/03/2017 20:04:31	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
 	17/03/2017 20:04:47	INFO	Chaincode deployed with chaincodeID tytrryryrrryy	
+	18/03/2017 11:30:57	INFO	Startup complete on port	8080
+	18/03/2017 11:30:57	INFO	Startup	Enrolled registrar
+	18/03/2017 11:30:57	INFO	Startup	Set registrar
+	18/03/2017 11:34:30	INFO	Startup complete on port	8080
+	18/03/2017 11:34:30	INFO	Startup	Enrolled registrar
+	18/03/2017 11:34:30	INFO	Startup	Set registrar
+	18/03/2017 11:36:25	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 11:36:30	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	18/03/2017 11:36:30	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+	18/03/2017 11:37:52	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 11:37:57	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	18/03/2017 11:37:57	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+	18/03/2017 11:51:18	INFO	Startup complete on port	8080
+	18/03/2017 11:51:18	INFO	Startup	Enrolled registrar
+	18/03/2017 11:51:18	INFO	Startup	Set registrar
+	18/03/2017 11:52:29	INFO	Startup complete on port	8080
+	18/03/2017 11:52:29	INFO	Startup	Enrolled registrar
+	18/03/2017 11:52:29	INFO	Startup	Set registrar
+	18/03/2017 11:54:11	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 11:54:37	ERROR	Identity	OUTPUT: "Failed to add Identity on BlockChain -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044 [invalid arg specified undefined in ]"
+	18/03/2017 11:54:38	ERROR	POST blockchain/identity/ECB223113345	OUTPUT: "Error: invalid arg specified undefined in \n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:72:31\n    at Array.forEach (native)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:70:22\n    at Function.invokeChaincode (/home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/util.js:69:20)\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/server/tools/utils/identity.js:53:30"
+	18/03/2017 11:57:09	INFO	Startup complete on port	8080
+	18/03/2017 11:57:09	INFO	Startup	Enrolled registrar
+	18/03/2017 11:57:09	INFO	Startup	Set registrar
+	18/03/2017 11:59:12	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 11:59:17	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	18/03/2017 11:59:17	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+	18/03/2017 12:00:23	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 12:00:29	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-2056I6840849044
+	18/03/2017 12:00:29	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-2056I6840849044 added
+	18/03/2017 12:03:25	INFO	Identity	Successfully got public Key for ECB223113345
+	18/03/2017 12:03:30	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-111056I684084009044
+	18/03/2017 12:03:30	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-111056I684084009044 added

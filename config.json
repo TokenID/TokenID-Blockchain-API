@@ -10,5 +10,5 @@
     "keyStoreLocation": "./keyValStore",
     "chainName": "clientChain",
     "identityChainCodePath": "identity_chaincode",
-    "devModeChainCodeID" : "9a97c56ccdb3dc2f078dff29292d35bfb0ec7366124c05fc5364af656f92543dd749bee13923f6166b7e92cd52deffab7ffb5b7490ecb5b006855e26ea4d6f6b"
+    "devModeChainCodeID" : "0c807e9596b8b080aa0d50eea09cca821f6d379950b138c2ae6e827f544f540eab80bbf96c0dfffb7b0c82e2c4570fd2ee9bbbc62ded84c383c777623e727cf3"
 }

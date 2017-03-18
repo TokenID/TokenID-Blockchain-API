@@ -14,7 +14,7 @@ class Identity {
         this.securityContext = securityContext;
         this.chain = hfc.getChain(configFile.config.chainName);
     }
-    create(providerEnrollmentID, identityCode, identityTypeCode, identityPayload, issuerID, metaData, attachmentURI) {
+    create(providerEnrollmentID, identityCode, identityTypeCode, identityPayload, issuerID, metaData, attachmentURI, issuerCode, issuerOrganization) {
         let chain = this.chain;
         let securityContext = this.securityContext;
         return new Promise(function (resolve, reject) {
@@ -48,9 +48,11 @@ class Identity {
                         let encryptedKeyBytes = publicKey.encrypt(aesKey)
                         let encryptedKey = new Buffer(encryptedKeyBytes).toString("base64")
 
-
+                        issuerCode = (issuerCode == undefined) ? "" : issuerCode;
+                        issuerOrganization = (issuerOrganization == undefined) ? "" : issuerOrganization;
+                        
                         //Add New Identity on BlockChain
-                        Util.invokeChaincode(securityContext, "addIdentity", [providerEnrollmentID, identityCode, identityTypeCode, encryptedPayloadWithIVInBase64, encryptedKey, issuerID, JSON.stringify(metaData), encryptedAttachmentURIWithIVInBase64])
+                        Util.invokeChaincode(securityContext, "addIdentity", [providerEnrollmentID, identityCode, identityTypeCode, encryptedPayloadWithIVInBase64, encryptedKey, issuerID, JSON.stringify(metaData), encryptedAttachmentURIWithIVInBase64,  issuerCode, issuerOrganization])
                             .then(function () {
                                 tracing.create('INFO', 'Identity', 'New Identity added to BlockChain  -> providerEnrollmentID:' + providerEnrollmentID + " identityCode :" + identityCode);
                                 resolve({ message: "Successful" });
@@ -110,21 +112,13 @@ class Identity {
         return new Promise(function (resolve, reject) {
             // ChainCode deployment for the Identity
             //Using dev mode chain code id - No chain code is actully been eployed
-            startup.deployChaincode(securityContext.getEnrolledMember(),configFile.config.identityChainCodePath, "tytrryryrrryy", "init", [providerEnrollmentID, publicKey], configFile.config.certPath)
+            startup.deployChaincode(securityContext.getEnrolledMember(), configFile.config.identityChainCodePath, configFile.config.devModeChainCodeID, "init", [providerEnrollmentID, publicKey], configFile.config.certPath)
                 .then(function (result) {
                     let chaincodeID = result.chaincodeID
-                    securityContext.setChaincodeID(chaincodeID)
-                    //Register New Identity on BlockChain
-                    Util.invokeChaincode(securityContext, "initIdentity", [providerEnrollmentID, publicKey])
-                        .then(function () {
-                            tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
-                            resolve({ message: "Identity successfully registered", "chaincodeID": chaincodeID });
-                        })
-                        .catch(function (err) {
-                            tracing.create('ERROR', 'Identity', 'Failed to register Identity on BlockChain ' + providerEnrollmentID);
-                            console.log(err);
-                            reject(err);
-                        });
+
+                    tracing.create('INFO', 'Identity', 'Identity registered on BlockChain ' + providerEnrollmentID);
+                    resolve({ message: "Identity successfully registered", "chaincodeID": chaincodeID });
+
 
                 })
                 .catch(function (err) {

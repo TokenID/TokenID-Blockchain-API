@@ -42,7 +42,7 @@ function create(req, res, next) {
         return
     }
 
-    return identity.create(providerEnrollmentID, reqBody.identityCode, reqBody.identityTypeCode, reqBody.identityPayload, reqBody.issuerID, reqBody.metaData, reqBody.attachmentURI)
+    return identity.create(providerEnrollmentID, reqBody.identityCode, reqBody.identityTypeCode, reqBody.identityPayload, reqBody.issuerID, reqBody.metaData, reqBody.attachmentURI,reqBody.issuerCode, reqBody.issuerOrganization)
         .then(function (enrolledIssuer) {
             tracing.create('INFO', 'POST blockchain/identity/' + providerEnrollmentID, 'Identity ' + reqBody.identityCode + ' added');
             let result = {};

@@ -30,3 +30,4 @@ function remove(req, res, next) {
             res.status(500).json({ error : true, 'message': err.stack });
         });
 }
+exports.remove = remove;

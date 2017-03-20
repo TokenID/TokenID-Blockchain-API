@@ -8,4 +8,4 @@ exports.getIdentities = read.getIdentities
 exports.getIdentity = read.getIdentity
 
 var remove = require(__dirname+'/CRUD/delete.js');
-exports.delete = remove.remove;
+exports.removeIdentity = remove.remove;

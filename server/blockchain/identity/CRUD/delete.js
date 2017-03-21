@@ -18,7 +18,7 @@ function removeIdentity(req, res, next) {
     let providerEnrollmentID = req.params.providerEnrollmentID;
     let identityCode = req.params.identityCode;
 
-    return identity.delete(providerEnrollmentID, identityCode)
+    return identity.remove(providerEnrollmentID, identityCode)
         .then(function (data) {
             let result = {};
             result.message = 'Identity removed successful';

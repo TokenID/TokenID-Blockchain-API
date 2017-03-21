@@ -22,11 +22,11 @@ function removeIdentity(req, res, next) {
         .then(function (data) {
             let result = {};
             result.message = 'Identity removed successful';
-            tracing.create('INFO', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityTypeCode, data );
+            tracing.create('INFO', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityCode, data );
             res.json(result);
         })
         .catch(function (err) {
-            tracing.create('ERROR', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityTypeCode, err);
+            tracing.create('ERROR', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityCode, err);
             res.status(500).json({ error : true, 'message': err.stack });
         });
 }

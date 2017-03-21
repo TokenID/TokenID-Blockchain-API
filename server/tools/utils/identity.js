@@ -90,7 +90,7 @@ class Identity {
                     console.log(pk);
                     tracing.create('INFO', 'Identity', 'Identity removed -> ' + providerEnrollmentID + '/' + identityCode);
                     let result = {};
-                    result.message = 'Identity succesfully deleted';
+                    result.message = 'Identity succesfully deleted -> ' + pk ;
                     resolve(result);
                 })
                 .catch(function (err) {

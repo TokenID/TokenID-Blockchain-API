@@ -79,16 +79,16 @@ class Identity {
         });
     }
 
-    remove(providerEnrollmentID, identityTypeCode) {
+    remove(providerEnrollmentID, identityCode) {
         let chain = this.chain;
         let securityContext = this.securityContext;
 
         return new Promise(function (resolve, reject) {
-            Util.invokeChaincode(securityContext, 'removeIdentity', [providerEnrollmentID, identityTypeCode])
+            Util.invokeChaincode(securityContext, 'removeIdentity', [providerEnrollmentID, identityCode])
                 .then(function (data) {
                     let pk = data.toString();
                     console.log(pk);
-                    tracing.create('INFO', 'Identity', 'Identity removed -> ' + providerEnrollmentID + '/' + identityTypeCode);
+                    tracing.create('INFO', 'Identity', 'Identity removed -> ' + providerEnrollmentID + '/' + identityCode);
                     let result = {};
                     result.message = 'Identity succesfully deleted';
                     resolve(result);
@@ -97,7 +97,7 @@ class Identity {
                     let error = {};
                     error.error = true;
                     error.message = err;
-                    tracing.create('INFO', 'Identity', 'Failed to remove identity -> ' + providerEnrollmentID + '/' + identityTypeCode, err);
+                    tracing.create('INFO', 'Identity', 'Failed to remove identity -> ' + providerEnrollmentID + '/' + identityCode, err);
                     console.log(err)
                     resolve(error)
                 });

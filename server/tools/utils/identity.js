@@ -98,8 +98,8 @@ class Identity {
                     error.error = true;
                     error.message = err;
                     tracing.create('INFO', 'Identity', 'Failed to remove identity -> ' + providerEnrollmentID + '/' + identityCode, err);
-                    console.log(err)
-                    resolve(error)
+                    console.log(err);
+                    reject(error);
                 });
         });
     }

@@ -5,7 +5,7 @@ let Util = require(__dirname + '/../../../tools/utils/util');
 let Identity = require(__dirname + '/../../../tools/utils/identity');
 
 
-function remove(req, res, next) {
+function removeIdentity(req, res, next) {
     let securityContext = configFile.config.securityContext;
 
     let chainCodeID = req.get(configFile.config.chainCodeIDHeaderName);
@@ -30,4 +30,4 @@ function remove(req, res, next) {
             res.status(500).json({ error : true, 'message': err.stack });
         });
 }
-exports.remove = remove;
+exports.removeIdentity = removeIdentity;

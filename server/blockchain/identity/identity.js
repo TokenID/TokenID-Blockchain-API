@@ -7,5 +7,5 @@ exports.getPublicKey = read.getPublicKey;
 exports.getIdentities = read.getIdentities
 exports.getIdentity = read.getIdentity
 
-var remove = require(__dirname+'/CRUD/delete.js');
-exports.removeIdentity = remove.remove;
+var del = require(__dirname+'/CRUD/delete.js');
+exports.removeIdentity = del.removeIdentity;

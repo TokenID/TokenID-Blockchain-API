@@ -12,7 +12,7 @@ class Issuer {
         this.chain = hfc.getChain(configFile.config.chainName);
     }
 
-    create(enrollID, issuerID, issuerCode, organization, identityCodes) {
+    create(enrollID, issuerID, issuerCode, organization, identityTypeCodes) {
         let regRequest = {};
         let chain = this.chain;
         let securityContext = this.securityContext;
@@ -23,6 +23,7 @@ class Issuer {
             { name: 'username', value: enrollID },
             { name: 'issuerCode', value: issuerCode },
             { name: 'issuerID', value: issuerID },
+            {name : 'identityTypeCodes' ,  value :   identityTypeCodes.join()},
             { name: 'organization', value: organization }
         ];
         return new Promise(function (resolve, reject) {

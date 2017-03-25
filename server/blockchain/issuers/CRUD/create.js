@@ -35,12 +35,12 @@ function create (req, res, next) {
         res.status(400).json({message : "'organization' required"});
         return
     }
-    if(!reqBody.identityCodes || reqBody.identityCodes.length === 0 ){
-        res.status(400).json({message : "'identityCodes' required. Must have at least 1 identity code"});
+    if(!reqBody.identityTypeCodes || reqBody.identityTypeCodes.length === 0 ){
+        res.status(400).json({message : "'identityTypeCodes' required. Must have at least 1 identity type code"});
         return
     }
 
-    return issuer.create(reqBody.enrollID, reqBody.issuerID, reqBody.issuerCode, reqBody.organization, reqBody.identityCodes)
+    return issuer.create(reqBody.enrollID, reqBody.issuerID, reqBody.issuerCode, reqBody.organization, reqBody.identityTypeCodes)
      .then(function(enrolledIssuer) {
         tracing.create('INFO', 'POST blockchain/issuers', 'Created Issuer');
         let result = {};

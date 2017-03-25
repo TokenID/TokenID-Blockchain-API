@@ -5,7 +5,7 @@ let Util = require(__dirname + '/../../../tools/utils/util');
 let Identity = require(__dirname + '/../../../tools/utils/identity');
 
 
-function remove(req, res, next) {
+function removeIdentity(req, res, next) {
     let securityContext = configFile.config.securityContext;
 
     let chainCodeID = req.get(configFile.config.chainCodeIDHeaderName);
@@ -18,15 +18,16 @@ function remove(req, res, next) {
     let providerEnrollmentID = req.params.providerEnrollmentID;
     let identityCode = req.params.identityCode;
 
-    return identity.delete(providerEnrollmentID, identityCode)
+    identity.remove(providerEnrollmentID, identityCode)
         .then(function (data) {
             let result = {};
             result.message = 'Identity removed successful';
-            tracing.create('INFO', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityTypeCode, data );
+            tracing.create('INFO', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityCode, data );
             res.json(result);
         })
         .catch(function (err) {
-            tracing.create('ERROR', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityTypeCode, err);
+            tracing.create('ERROR', 'DELETE blockchain/identity/' + providerEnrollmentID + '/' + identityCode, err);
             res.status(500).json({ error : true, 'message': err.stack });
         });
 }
+exports.removeIdentity = removeIdentity;

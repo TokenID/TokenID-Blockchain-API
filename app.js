@@ -157,21 +157,7 @@ if (configFile.config.hfcProtocol === 'grpcs') {
     pem = fs.readFileSync(__dirname + '/' + configFile.config.certificateFileName, 'utf8');
 }
 
-
-if (process.env.VCAP_SERVICES) { // We are running in bluemix
-    credentials = JSON.parse(process.env.VCAP_SERVICES)['ibm-blockchain-5-prod'][0].credentials;
-    console.log('\n[!] Running in bluemix');
-    if (!pem) {
-        console.log('\n[!] No certificate is available. Will fail to connect to fabric');
-    }
-    startup.connectToPeers(chain, credentials.peers, pem);
-    startup.connectToCA(chain, credentials.ca, pem);
-    //startup.connectToEventHub(chain, credentials.peers[0], pem);
-
-    // Get the WebAppAdmins password
-    webAppAdminPassword = configFile.config.bluemix_registrar_password;
-
-} else if (pem) { // We are running outside bluemix, connecting to bluemix fabric
+ if (pem) { // We are running outside bluemix, connecting to bluemix fabric
     console.log('\n[!] Running locally with bluemix fabric');
     credentials = fs.readFileSync(__dirname + '/credentials.json');
     credentials = JSON.parse(credentials);
@@ -226,7 +212,7 @@ return startup.enrollRegistrar(chain, configFile.config.registrar_name, webAppAd
     .then(function (member) {
         let sc = new SecurityContext(member);
         //If deployed in bluemix
-        configFile.config.certPath = (vcapServices) ? vcapServices.cert_path : configFile.config.certPath;
+        configFile.config.certPath = configFile.config.certPath;
         configFile.config.securityContext  = sc;
 
     })

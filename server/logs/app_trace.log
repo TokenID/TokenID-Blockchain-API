@@ -2097,3 +2097,17 @@ undefined	16/03/2017 20:36:22	INFO	Startup complete on port	8080
 	18/03/2017 12:03:25	INFO	Identity	Successfully got public Key for ECB223113345
 	18/03/2017 12:03:30	INFO	Identity	New Identity added to BlockChain  -> providerEnrollmentID:ECB223113345 identityCode :NIMC-111056I684084009044
 	18/03/2017 12:03:30	INFO	POST blockchain/identity/ECB223113345	Identity NIMC-111056I684084009044 added
+	25/03/2017 09:50:39	INFO	Startup complete on port	8080
+	25/03/2017 09:50:39	INFO	Startup	Enrolled registrar
+	25/03/2017 09:50:39	INFO	Startup	Set registrar
+	25/03/2017 09:51:19	INFO	Startup	Failed to enroll nimc_user_50 using HFC. Error: {"code":14,"metadata":{"_internal_repr":{}}}
+	25/03/2017 09:51:19	ERROR	POST blockchain/issuers	OUTPUT: "Error\n    at /home/victor/go/src/github.com/IkoroVictor/identity-blockchain-api/node_modules/hfc/node_modules/grpc/src/node/src/client.js:417:17"
+	25/03/2017 09:52:23	INFO	Startup complete on port	8080
+	25/03/2017 09:52:23	INFO	Startup	Enrolled registrar
+	25/03/2017 09:52:23	INFO	Startup	Set registrar
+	25/03/2017 19:49:19	INFO	Startup complete on port	8080
+	25/03/2017 19:49:19	INFO	Startup	Enrolled registrar
+	25/03/2017 19:49:19	INFO	Startup	Set registrar
+	26/03/2017 07:30:21	INFO	Startup complete on port	8080
+	26/03/2017 07:30:21	INFO	Startup	Enrolled registrar
+	26/03/2017 07:30:21	INFO	Startup	Set registrar
